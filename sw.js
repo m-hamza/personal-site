@@ -1,4 +1,4 @@
-const CACHE_NAME = "m-hamza-v2";
+const CACHE_NAME = "m-hamza-v3";
 const PRECACHE = [
     "./",
     "./index.html",
@@ -96,6 +96,26 @@ async function cacheFirst(request) {
     return response;
 }
 
+async function networkFirst(request) {
+    try {
+        const response = await fetch(request);
+        if (response.ok && request.method === "GET") {
+            const cache = await caches.open(CACHE_NAME);
+            cache.put(request, response.clone());
+        }
+        return response;
+    } catch {
+        const cached = await caches.match(request);
+        if (cached) return cached;
+        throw new Error(`Network error for ${request.url}`);
+    }
+}
+
+function shouldUseNetworkFirst(url) {
+    const path = url.pathname;
+    return /\.(js|css|html|json)$/.test(path) || path.endsWith("/");
+}
+
 self.addEventListener("fetch", (event) => {
     const { request } = event;
     if (request.method !== "GET") return;
@@ -103,5 +123,5 @@ self.addEventListener("fetch", (event) => {
     const url = new URL(request.url);
     if (url.origin !== self.location.origin) return;
 
-    event.respondWith(cacheFirst(request));
+    event.respondWith(shouldUseNetworkFirst(url) ? networkFirst(request) : cacheFirst(request));
 });
