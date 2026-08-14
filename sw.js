@@ -1,4 +1,4 @@
-const CACHE_NAME = "m-hamza-v3";
+const CACHE_NAME = "m-hamza-v4";
 const PRECACHE = [
     "./",
     "./index.html",
@@ -68,10 +68,17 @@ const PRECACHE = [
     "./sw.js",
 ];
 
+async function precacheUrls(cache, urls, batchSize = 5) {
+    for (let i = 0; i < urls.length; i += batchSize) {
+        const batch = urls.slice(i, i + batchSize);
+        await Promise.allSettled(batch.map((url) => cache.add(url)));
+    }
+}
+
 self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then((cache) => Promise.allSettled(PRECACHE.map((url) => cache.add(url))))
+            .then((cache) => precacheUrls(cache, PRECACHE))
             .then(() => self.skipWaiting()),
     );
 });
@@ -102,7 +109,10 @@ async function networkFirst(request) {
         if (response.ok && request.method === "GET") {
             const cache = await caches.open(CACHE_NAME);
             cache.put(request, response.clone());
+            return response;
         }
+        const cached = await caches.match(request);
+        if (cached) return cached;
         return response;
     } catch {
         const cached = await caches.match(request);

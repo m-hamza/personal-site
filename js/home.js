@@ -502,11 +502,12 @@ async function renderPage() {
     hideLoading();
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register(resolveAsset("sw.js")).catch(() => {});
-    }
+function registerServiceWorker() {
+    if (!("serviceWorker" in navigator)) return;
+    navigator.serviceWorker.register(resolveAsset("sw.js")).catch(() => {});
+}
 
+document.addEventListener("DOMContentLoaded", async () => {
     initTheme(document.getElementById("themeToggle"));
 
     document.getElementById("siteModal").addEventListener("show.bs.modal", (event) => {
@@ -527,4 +528,5 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error(error);
         hideLoading();
     }
+    registerServiceWorker();
 });
