@@ -1,0 +1,31 @@
+.modal-content {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius-md);
+    border: none;
+    color: var(--text-color);
+}
+
+.modal-header {
+    background: var(--gradient);
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: 1px solid var(--border-color);
+}
+
+.modal-btn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: var(--gradient);
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-close {
+    filter: invert(1);
+}

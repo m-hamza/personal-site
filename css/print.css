@@ -1,0 +1,36 @@
+@media print {
+    .loading,
+    .topbar-actions,
+    .theme-toggle,
+    .contact-dock,
+    .cv-toolbar,
+    .cv-filters,
+    .cv-toc,
+    .hero-actions,
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: #fff;
+        color: #111;
+    }
+
+    .cv-sidebar,
+    .cv-main,
+    .cv-section,
+    #main-info,
+    .tabs-container {
+        box-shadow: none;
+        break-inside: avoid;
+    }
+
+    .cv-layout {
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}

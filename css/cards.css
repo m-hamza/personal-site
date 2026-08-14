@@ -1,0 +1,75 @@
+.project-grid,
+.service-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .project-grid,
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.project-card,
+.service-card {
+    background: var(--light-color);
+    border-radius: var(--border-radius-sm);
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.service-card {
+    cursor: default;
+}
+
+.project-card:hover,
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.project-card h3,
+.service-card h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.project-card p,
+.service-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary-color);
+    margin-top: 8px;
+    line-height: 1.7;
+}
+
+.service-card i {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.content-card {
+    padding: 10px;
+    line-height: 2;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.tag {
+    background: rgba(58, 123, 213, 0.12);
+    color: var(--primary-color);
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

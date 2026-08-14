@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-base="../">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه | محمد حمزه</title>
+    <meta name="description" content="رزومه آنلاین محمد حمزه؛ سوابق شغلی، مهارت‌ها، پروژه‌ها و راه‌های همکاری.">
+    <link rel="alternate" hreflang="fa" href="https://m-hamza.ir/cv/">
+    <link rel="alternate" hreflang="en" href="https://m-hamza.ir/cv/?lang=en">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="cv-page">
+    <div class="loading" id="loadingIndicator">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <div class="container page-wrap">
+        <div class="topbar">
+            <a class="topbar-brand" href="../">
+                <img src="../gibli.jpg" alt="">
+                <span id="brandName">محمد حمزه</span>
+            </a>
+            <div class="topbar-actions">
+                <div class="lang-switch" id="langSwitch"></div>
+            </div>
+        </div>
+
+        <div class="cv-toolbar no-print">
+            <input type="search" id="cvSearch" class="cv-search" placeholder="">
+            <div class="cv-tools">
+                <a class="btn-outline" id="homeLink" href="../"></a>
+                <a class="btn-outline" id="downloadPdf" href="../MyResume.pdf" download></a>
+                <button type="button" class="btn-primary" id="printCv"></button>
+            </div>
+        </div>
+
+        <nav class="cv-toc no-print" id="cvToc"></nav>
+        <div class="cv-filters no-print" id="cvFilters"></div>
+
+        <div class="cv-layout">
+            <aside class="cv-sidebar">
+                <img id="cvPhoto" src="../gibli.jpg" alt="" class="profile-image lazy-load" loading="lazy">
+                <h1 id="cvName"></h1>
+                <p class="headline" id="cvHeadline"></p>
+                <p class="meta-line" id="cvMeta"></p>
+                <div class="cv-stats" id="cvStats"></div>
+                <div class="cv-side-block">
+                    <h2 id="contactsTitle"></h2>
+                    <div id="cvSideContacts"></div>
+                </div>
+                <div class="cv-side-block">
+                    <h2 id="skillsTitle"></h2>
+                    <div id="cvSideSkills"></div>
+                </div>
+                <div class="cv-side-block">
+                    <h2 id="languagesTitle"></h2>
+                    <div id="cvSideLanguages"></div>
+                </div>
+            </aside>
+            <div class="cv-main" id="cvMain"></div>
+        </div>
+
+        <footer>
+            <div class="footer-contacts" id="footerContacts"></div>
+            <p id="footerCopy"></p>
+        </footer>
+    </div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script type="module" src="../js/cv.js"></script>
+</body>
+</html>

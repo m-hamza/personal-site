@@ -1,159 +1,53 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-base="./">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>محمد حمزه | توسعه‌دهنده وب</title>
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="description" content="سایت شخصی محمد حمزه؛ توسعه وب، اندروید، دیجیتال مارکتینگ و ارائه خدمات برای پروژه‌های داخلی و بین‌المللی.">
+    <link rel="alternate" hreflang="fa" href="https://m-hamza.ir/">
+    <link rel="alternate" hreflang="en" href="https://m-hamza.ir/?lang=en">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font/dist/font-face.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    
-    <style>
-        :root {
-    --primary-color: #3a7bd5;
-    --secondary-color: #00d2ff;
-    --dark-color: #2d3436;
-    --light-color: #f4f7f6;
-    --text-color: #333;
-    --text-secondary-color: #6c757d;
-    --card-bg: #ffffff;
-    --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.07);
-    --gradient: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    --border-radius-md: 16px;
-    --border-radius-sm: 12px;
-}
-
-.dark-mode {
-    --light-color: #121212;
-    --text-color: #e4e6eb;
-    --text-secondary-color: #b0b3b8;
-    --card-bg: #1e1e1e;
-}
-
-body {
-    font-family: 'Vazir', sans-serif;
-    margin: 0;
-    background-color: var(--light-color);
-    color: var(--text-color);
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.container { max-width: 800px; margin: 0 auto; padding: 20px; }
-
-/* 1. کارت معرفی اصلی */
-#main-info {
-    background-color: var(--card-bg);
-    border-radius: var(--border-radius-md);
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: var(--shadow-md);
-    text-align: center;
-    border-top: 5px solid var(--primary-color);
-}
-.profile-image {
-    width: 130px; height: 130px; object-fit: cover; border-radius: 50%;
-    border: 5px solid var(--light-color); box-shadow: 0 0 25px rgba(58, 123, 213, 0.2);
-    margin-bottom: 20px;
-}
-#main-info h1 { font-size: 2rem; font-weight: 700; color: var(--text-color); }
-#main-info p { font-size: 1rem; color: var(--text-secondary-color); margin-top: 10px; }
-.social-links { display: flex; justify-content: center; gap: 15px; margin-top: 20px; }
-.social-links a {
-    width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center;
-    justify-content: center; color: var(--primary-color); border: 2px solid var(--primary-color);
-    transition: all 0.3s ease; font-size: 20px; text-decoration: none;
-}
-.social-links a:hover { background: var(--gradient); color: #fff; border-color: transparent; }
-
-/* 2. بخش محتوای تب‌بندی شده */
-.tabs-container { background-color: var(--card-bg); border-radius: var(--border-radius-md); box-shadow: var(--shadow-md); overflow: hidden; }
-.tab-nav { display: flex; border-bottom: 1px solid #eee; padding: 10px; }
-.dark-mode .tab-nav { border-bottom-color: #3a3b3c; }
-.tab-btn {
-    flex: 1; padding: 12px 10px; background: transparent; border: none;
-    border-radius: var(--border-radius-sm); color: var(--text-secondary-color); font-weight: 600;
-    cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center;
-    justify-content: center; gap: 8px;
-}
-.tab-btn:hover { background-color: rgba(58, 123, 213, 0.1); color: var(--primary-color); }
-.tab-btn.active { background: var(--gradient); color: #fff; box-shadow: 0 5px 15px rgba(58, 123, 213, 0.3); }
-.tab-btn span { display: none; }
-@media (min-width: 576px) { .tab-btn span { display: inline; } }
-.tab-content { padding: 25px; }
-.tab-pane { display: none; animation: fadeIn 0.5s ease; }
-.tab-pane.active { display: block; }
-.project-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
-@media (min-width: 768px) { .project-grid { grid-template-columns: repeat(2, 1fr); } }
-.project-card {
-    background: var(--light-color); border-radius: var(--border-radius-sm); padding: 20px;
-    cursor: pointer; transition: all 0.3s ease; border: 1px solid #eee;
-}
-.dark-mode .project-card { background-color: #242526; border-color: #3a3b3c; }
-.project-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
-.project-card h3 { font-size: 1.1rem; margin: 0; color: var(--text-color); }
-.project-card p { font-size: 0.9rem; color: var(--text-secondary-color); margin-top: 8px; }
-.content-card { padding: 10px; line-height: 2; }
-.contact-item { display: flex; align-items: center; gap: 15px; padding: 12px; border-radius: var(--border-radius-sm); transition: background-color 0.3s; }
-.contact-item:hover { background-color: rgba(58, 123, 213, 0.1); }
-.contact-item i { font-size: 1.3rem; color: var(--primary-color); }
-.contact-item a { text-decoration: none; color: var(--text-color); font-weight: 500; }
-
-/* 3. پاورقی و عناصر شناور */
-footer { text-align: center; padding: 30px 0; color: #999; font-size: 0.9rem; }
-.theme-toggle {
-    position: fixed; bottom: 20px; left: 20px; width: 50px; height: 50px;
-    background: var(--card-bg); border-radius: 50%; display: flex; align-items: center;
-    justify-content: center; color: var(--text-secondary-color); box-shadow: var(--shadow-md);
-    cursor: pointer; z-index: 1000; border: 1px solid #eee; transition: all 0.3s ease;
-}
-.theme-toggle:hover { transform: scale(1.1) rotate(15deg); }
-.modal-content { background-color: var(--card-bg); border-radius: var(--border-radius-md); border: none; }
-.modal-header { background: var(--gradient); color: #fff; border-bottom: none; }
-.modal-btn { padding: 10px 30px; border-radius: 50px; background: var(--gradient); color: #fff; text-decoration: none; }
-
-/* انیمیشن‌ها و لودینگ */
-@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-.loading { position: fixed; inset: 0; background: var(--light-color); display: flex; justify-content: center; align-items: center; z-index: 9999; transition: opacity 0.5s, visibility 0.5s; }
-.loading.hidden { opacity: 0; visibility: hidden; }
-.loading-spinner { width: 50px; height: 50px; border: 5px solid #f3f3f3; border-top: 5px solid var(--primary-color); border-radius: 50%; animation: spin 1s linear infinite; }
-@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-.lazy-load { opacity: 0; transition: opacity 0.5s; }
-.lazy-load.loaded { opacity: 1; }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div class="loading" id="loadingIndicator">
         <div class="loading-spinner"></div>
     </div>
 
-    <div class="container">
+    <div class="container page-wrap">
+        <div class="topbar">
+            <a class="topbar-brand" href="./">
+                <img src="gibli.jpg" alt="">
+                <span id="brandName">محمد حمزه</span>
+            </a>
+            <div class="topbar-actions">
+                <div class="lang-switch" id="langSwitch"></div>
+            </div>
+        </div>
+
         <header id="main-info">
             <img src="gibli.jpg" alt="عکس پروفایل" class="profile-image lazy-load" loading="lazy">
             <h1 id="name"></h1>
-            <p id="description"></p>
+            <p class="headline" id="headline"></p>
+            <p class="description" id="description"></p>
+            <div class="hero-actions" id="heroActions"></div>
             <div class="social-links" id="socialLinks"></div>
         </header>
 
         <main class="tabs-container">
-            <nav class="tab-nav">
-                <button class="tab-btn active" data-tab="projects">
-                    <i class="fas fa-briefcase"></i>
-                    <span>پروژه‌ها</span>
-                </button>
-                <button class="tab-btn" data-tab="about">
-                    <i class="fas fa-user"></i>
-                    <span>درباره من</span>
-                </button>
-                <button class="tab-btn" data-tab="contact">
-                    <i class="fas fa-envelope"></i>
-                    <span>تماس</span>
-                </button>
-            </nav>
-
+            <nav class="tab-nav" id="tabNav"></nav>
             <div class="tab-content">
                 <div id="projects-tab" class="tab-pane active">
                     <div class="project-grid" id="siteList"></div>
+                </div>
+                <div id="services-tab" class="tab-pane">
+                    <div class="service-grid" id="servicesList"></div>
                 </div>
                 <div id="about-tab" class="tab-pane">
                     <div id="aboutContent" class="content-card"></div>
@@ -165,7 +59,8 @@ footer { text-align: center; padding: 30px 0; color: #999; font-size: 0.9rem; }
         </main>
 
         <footer>
-            <p>© <span id="currentYear"></span> - تمامی حقوق محفوظ است</p>
+            <div class="footer-contacts" id="footerContacts"></div>
+            <p id="footerCopy"></p>
         </footer>
     </div>
 
@@ -182,108 +77,13 @@ footer { text-align: center; padding: 30px 0; color: #999; font-size: 0.9rem; }
                 </div>
                 <div class="modal-body" id="siteModalBody"></div>
                 <div class="modal-footer">
-                    <a href="#" id="siteLink" class="modal-btn" target="_blank" rel="noopener noreferrer">
-                        <i class="fas fa-external-link-alt"></i>
-                        ورود به سایت
-                    </a>
+                    <a href="#" id="siteLink" class="modal-btn" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-    // انتخاب عناصر اصلی صفحه
-    const loadingIndicator = document.getElementById('loadingIndicator');
-    const themeToggle = document.getElementById('themeToggle');
-    const tabBtns = document.querySelectorAll('.tab-btn');
-    const tabPanes = document.querySelectorAll('.tab-pane');
-    
-    // تابع اصلی برای بارگذاری و نمایش داده‌ها
-    const loadData = async () => {
-        try {
-            const response = await fetch('fa.json'); // مطمئن شوید فایل fa.json در کنار index.html است
-            const data = await response.json();
-
-            // پر کردن کارت معرفی
-            document.getElementById('name').textContent = data.name;
-            document.getElementById('description').textContent = data.description;
-            document.getElementById('socialLinks').innerHTML = data.social_links.map(social => `
-                <a href="${social.link}" target="_blank" rel="noopener noreferrer" aria-label="${social.name}"><i class="${social.icon}"></i></a>
-            `).join('');
-
-            // پر کردن پنل پروژه‌ها
-            document.getElementById('siteList').innerHTML = data.sites.map(site => `
-                <div class="project-card" data-bs-toggle="modal" data-bs-target="#siteModal" 
-                     data-name="${site.name}" data-description="${site.description}" data-link="${site.link}">
-                    <h3>${site.name}</h3>
-                    <p>${site.description.substring(0, 80)}...</p>
-                </div>
-            `).join('');
-
-            // پر کردن پنل درباره من
-            document.getElementById('aboutContent').innerHTML = `<p>${data.about}</p>`;
-
-            // پر کردن پنل تماس
-            document.getElementById('contactContent').innerHTML = `
-                <div class="contact-item"><i class="fas fa-phone-alt"></i><a href="tel:${data.contact.phone}">${data.contact.phone}</a></div>
-                <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:${data.contact.email}">${data.contact.email}</a></div>
-            `;
-            
-            // پنهان کردن انیمیشن لودینگ
-            setTimeout(() => loadingIndicator.classList.add('hidden'), 300);
-        } catch (error) {
-            console.error('خطا در بارگذاری اطلاعات:', error);
-            loadingIndicator.classList.add('hidden');
-        }
-    };
-
-    // مدیریت تغییر تم (تاریک/روشن)
-    themeToggle.addEventListener('click', () => {
-        const isDark = document.body.classList.toggle('dark-mode');
-        localStorage.setItem('darkMode', isDark);
-        const icon = themeToggle.querySelector('i');
-        icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
-    });
-    // اعمال تم ذخیره شده در زمان بارگذاری صفحه
-    if (localStorage.getItem('darkMode') === 'true') {
-        document.body.classList.add('dark-mode');
-        themeToggle.querySelector('i').className = 'fas fa-sun';
-    }
-
-    // مدیریت عملکرد تب‌ها
-    tabBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            tabBtns.forEach(b => b.classList.remove('active'));
-            tabPanes.forEach(p => p.classList.remove('active'));
-            btn.classList.add('active');
-            document.getElementById(`${btn.dataset.tab}-tab`).classList.add('active');
-        });
-    });
-    
-    // مدیریت مودال جزئیات پروژه
-    document.getElementById('siteModal').addEventListener('show.bs.modal', (event) => {
-        const card = event.relatedTarget;
-        document.getElementById('siteModalLabel').textContent = card.dataset.name;
-        document.getElementById('siteModalBody').textContent = card.dataset.description;
-        document.getElementById('siteLink').href = card.dataset.link;
-    });
-
-    // مدیریت Lazy Loading
-    const lazyLoadObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('loaded');
-                lazyLoadObserver.unobserve(entry.target);
-            }
-        });
-    });
-    document.querySelectorAll('.lazy-load').forEach(img => lazyLoadObserver.observe(img));
-    
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-    loadData(); // فراخوانی تابع اصلی
-});
-    </script>
+    <script type="module" src="js/home.js"></script>
 </body>
 </html>

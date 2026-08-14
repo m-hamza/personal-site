@@ -1,0 +1,35 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-radius: var(--border-radius-sm);
+    transition: background-color 0.3s;
+}
+
+.contact-item:hover {
+    background-color: rgba(58, 123, 213, 0.1);
+}
+
+.contact-item i {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    width: 24px;
+    text-align: center;
+}
+
+.contact-item a,
+.contact-item span {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.contact-copy {
+    margin-inline-start: auto;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary-color);
+    cursor: pointer;
+}

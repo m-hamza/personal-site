@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+footer .footer-contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+footer .footer-contacts a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
