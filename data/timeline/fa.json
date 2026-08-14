@@ -1,0 +1,306 @@
+{
+  "pdf": "MyResume.pdf",
+  "categoryLabels": {
+    "development": "توسعه و محصول",
+    "education": "آموزش و تربیت",
+    "media": "رسانه و محتوا",
+    "cultural": "فرهنگی و اجتماعی",
+    "business": "کسب‌وکار"
+  },
+  "kindLabels": {
+    "work": "سابقه شغلی",
+    "project": "پروژه",
+    "software": "نرم‌افزار",
+    "media": "رسانه"
+  },
+  "activityTimeline": [
+    {
+      "sortOrder": 140408,
+      "kind": "project",
+      "category": "education",
+      "title": "دستیار هوشمند طرح شهید بهنام محمدی",
+      "organization": "استارتیچ",
+      "period": "مرداد ۱۴۰۴ — اکنون",
+      "summary": "پاسخگویی هوشمند به سؤالات طرح و برنامه‌ها با هوش مصنوعی.",
+      "link": "https://starteach.ir/ai-bm",
+      "linkLabel": "starteach.ir/ai-bm"
+    },
+    {
+      "sortOrder": 140403,
+      "kind": "media",
+      "category": "media",
+      "title": "صاحب امتیاز فصلنامه کهربا",
+      "organization": "فصلنامه کهربا",
+      "period": "اردیبهشت ۱۴۰۳ — اکنون",
+      "summary": "اولین فصلنامه شهرستان چاراویماق با تیم‌سازی شبکه نویسندگان.",
+      "link": "http://kahrouba.ir",
+      "linkLabel": "kahrouba.ir"
+    },
+    {
+      "sortOrder": 140403,
+      "kind": "project",
+      "category": "business",
+      "title": "امدادخودرو سراسری",
+      "organization": "امدادخودرو سراسری",
+      "period": "اردیبهشت ۱۴۰۳ — اکنون",
+      "summary": "اتصال عرضه و تقاضای امداد خودرو در سراسر کشور.",
+      "highlights": [
+        "ایجاد ارتباط بین امدادگر و نیازمند",
+        "مدیریت عرضه و تقاضا در صنف امداد خودرو"
+      ],
+      "link": "https://emdadsarasari.ir",
+      "linkLabel": "emdadsarasari.ir"
+    },
+    {
+      "sortOrder": 140402,
+      "kind": "work",
+      "category": "education",
+      "title": "معاون پرورشی و دبیر کار و فناوری",
+      "organization": "مدرسه فرهیختگان علوی",
+      "period": "آبان ۱۴۰۲ — اکنون",
+      "summary": "معاون پرورشی و دبیر کار و فناوری پایه هفتم تا نهم؛ توسعه زیرساخت دیجیتال مدرسه."
+    },
+    {
+      "sortOrder": 140312,
+      "kind": "project",
+      "category": "education",
+      "title": "ابزار ارزیابی پژوهش با هوش مصنوعی",
+      "organization": "استارتیچ",
+      "period": "مرداد ۱۴۰۳ — اکنون",
+      "summary": "ارزیابی بخش‌های پژوهش و پایان‌نامه مشابه استاد راهنما.",
+      "link": "https://my.starteach.ir",
+      "linkLabel": "my.starteach.ir"
+    },
+    {
+      "sortOrder": 140301,
+      "kind": "software",
+      "category": "media",
+      "title": "نرم‌افزار اندروید چاراویماق",
+      "organization": "پایگاه خبری چاراویماق",
+      "period": "۱۴۰۱ — اکنون",
+      "summary": "اپ رسمی اولین خبرگزاری مجوزدار شهرستان؛ امتیاز ۴.۸ در کافه‌بازار.",
+      "link": "https://cafebazaar.ir/app/charoymagh.ir",
+      "linkLabel": "کافه‌بازار"
+    },
+    {
+      "sortOrder": 140201,
+      "kind": "work",
+      "category": "media",
+      "title": "صاحب امتیاز و مدیر مسئول پایگاه خبری چاراویماق",
+      "organization": "چاراویماق",
+      "period": "بهمن ۱۴۰۱ — اکنون",
+      "summary": "اولین پایگاه خبری دارای مجوز رسمی ارشاد در شهرستان.",
+      "highlights": [
+        "سایت خبری و اپ اندروید",
+        "سامانه املاک و استعدادهای برتر",
+        "تبدیل محتواهای مطرح به نرم‌افزار"
+      ],
+      "link": "https://charoymagh.ir",
+      "linkLabel": "charoymagh.ir"
+    },
+    {
+      "sortOrder": 140102,
+      "kind": "project",
+      "category": "development",
+      "title": "موتور جستجوی فایل دینا فایل",
+      "organization": "دینا فایل",
+      "period": "اردیبهشت ۱۴۰۱ — اکنون",
+      "summary": "تجمیع نزدیک به یک میلیون فایل از فروشگاه‌های فایل.",
+      "link": "http://dinafile.ir",
+      "linkLabel": "dinafile.ir"
+    },
+    {
+      "sortOrder": 140011,
+      "kind": "project",
+      "category": "business",
+      "title": "لیستلی — تبلیغ کسب‌وکار محلی",
+      "organization": "لیستلی",
+      "period": "آبان ۱۴۰۲ — اکنون",
+      "summary": "دیده شدن کسب‌وکارهای محلی در نتایج گوگل.",
+      "link": "http://listly.ir",
+      "linkLabel": "listly.ir"
+    },
+    {
+      "sortOrder": 140009,
+      "kind": "project",
+      "category": "education",
+      "title": "بنیان‌گذاری استارتیچ",
+      "organization": "استارتیچ",
+      "period": "شهریور ۱۴۰۰ — اکنون",
+      "summary": "مارکت‌پلیس آموزشی و سامانه آموزش آنلاین با بیش از ۱۸ هزار مخاطب اولیه.",
+      "highlights": [
+        "۱۳+ اپ منتشرشده در کافه‌بازار",
+        "دوره‌های تخصصی از ابتدایی تا دانشگاه",
+        "اکوسیستم یکپارچه تحت برند استارتیچ"
+      ],
+      "link": "https://starteach.ir",
+      "linkLabel": "starteach.ir"
+    },
+    {
+      "sortOrder": 140009,
+      "kind": "project",
+      "category": "cultural",
+      "title": "پایگاه جامع شهدای چاراویماق",
+      "organization": "بنیاد علوی و بنیاد شهید",
+      "period": "آذر ۱۴۰۰ — اکنون",
+      "summary": "احصای اطلاعات شهدا از ۷۲ به بیش از ۱۱۰ شهید.",
+      "highlights": [
+        "تقویم شهدای شهرستان",
+        "سالنامه در نرم‌افزار باد صبا",
+        "سواد مردمی یکشنبه‌های شهدایی"
+      ],
+      "link": "http://shohadacharoimaq.ir",
+      "linkLabel": "shohadacharoimaq.ir"
+    },
+    {
+      "sortOrder": 140008,
+      "kind": "work",
+      "category": "cultural",
+      "title": "کارشناس و رابط فرهنگی",
+      "organization": "نهاد آبادانی و پیشرفت (بنیاد علوی)",
+      "period": "مرداد ۱۴۰۰ — آبان ۱۴۰۲",
+      "highlights": [
+        "مدیریت رویدادهای فرهنگی",
+        "کارگاه توانمندسازی جوانان",
+        "مدیریت محتوای دیجیتال"
+      ]
+    },
+    {
+      "sortOrder": 140006,
+      "kind": "project",
+      "category": "business",
+      "title": "مجله اینترنتی زنبیل نو",
+      "organization": "زنبیل نو",
+      "period": "تیر ۱۴۰۰ — اکنون",
+      "summary": "موتور بازاریابی کالا؛ حدود یک میلیارد فروش دیجی‌کالا در یک و نیم ماه.",
+      "link": "http://zb9.ir",
+      "linkLabel": "zb9.ir"
+    },
+    {
+      "sortOrder": 140000,
+      "kind": "project",
+      "category": "development",
+      "title": "سیستم API مارکت",
+      "organization": "پروژه API",
+      "period": "آبان ۱۴۰۰ — اکنون",
+      "summary": "توسعه وب‌سرویس، مستندات فنی و پشتیبانی نسخه‌ها."
+    },
+    {
+      "sortOrder": 139912,
+      "kind": "project",
+      "category": "development",
+      "title": "پنل پیامکی سامانه لاین",
+      "organization": "سامانه لاین",
+      "period": "اسفند ۱۳۹۸ — اکنون",
+      "link": "http://samaneline.ir",
+      "linkLabel": "samaneline.ir"
+    },
+    {
+      "sortOrder": 139910,
+      "kind": "project",
+      "category": "development",
+      "title": "فیش‌یار — فیش تبلیغ آنلاین",
+      "organization": "فیش‌یار",
+      "period": "آذر ۱۳۹۷ — دی ۱۴۰۳",
+      "summary": "بیش از ۱۰ هزار فیش تبلیغاتی با دسته‌بندی پیشرفته.",
+      "link": "http://fishyar.ir",
+      "linkLabel": "fishyar.ir"
+    },
+    {
+      "sortOrder": 139904,
+      "kind": "project",
+      "category": "development",
+      "title": "هاستینگ سرویس استار",
+      "organization": "سرویس استار",
+      "period": "فروردین ۱۳۹۹ — اکنون",
+      "highlights": [
+        "میزبانی داخلی و خارجی",
+        "طراحی سایت، نرم‌افزار و گرافیک"
+      ],
+      "link": "http://servicestar.ir",
+      "linkLabel": "servicestar.ir"
+    },
+    {
+      "sortOrder": 139904,
+      "kind": "project",
+      "category": "development",
+      "title": "کوتاه‌کننده لینک لیشر",
+      "organization": "لیشر",
+      "period": "اردیبهشت ۱۳۹۹ — اکنون",
+      "link": "http://lisher.ir",
+      "linkLabel": "lisher.ir"
+    },
+    {
+      "sortOrder": 139802,
+      "kind": "work",
+      "category": "media",
+      "title": "ویراستار و طراح گرافیک",
+      "organization": "انتشارات اخلاق الهی",
+      "period": "اردیبهشت ۱۳۹۷ — اکنون",
+      "highlights": [
+        "ویراستاری و صفحه‌آرایی کتاب",
+        "طراحی جلد و گرافیک"
+      ]
+    },
+    {
+      "sortOrder": 139710,
+      "kind": "work",
+      "category": "education",
+      "title": "مربی طرح شهید بهنام محمدی",
+      "organization": "طرح شهید بهنام محمدی",
+      "period": "مهر ۱۳۹۷ — اکنون",
+      "highlights": [
+        "اجرای برنامه در مدارس",
+        "برگزیده استانی"
+      ]
+    },
+    {
+      "sortOrder": 139706,
+      "kind": "media",
+      "category": "media",
+      "title": "مجله اینترنتی سرمشق انتظار",
+      "organization": "سرمشق انتظار",
+      "period": "خرداد ۱۳۹۴ — اکنون",
+      "highlights": [
+        "تولید محتوای مذهبی",
+        "مدیریت شبکه‌های اجتماعی"
+      ]
+    },
+    {
+      "sortOrder": 139408,
+      "kind": "project",
+      "category": "business",
+      "title": "فروشگاه فایل تب فایل",
+      "organization": "تب فایل",
+      "period": "مرداد ۱۳۹۴ — اکنون",
+      "highlights": [
+        "بیش از ۳۰ گیگ پاورپوینت آموزشی",
+        "کمپین تبلیغاتی"
+      ]
+    },
+    {
+      "sortOrder": 139310,
+      "kind": "work",
+      "category": "development",
+      "title": "طراح و برنامه‌نویس اندروید و وب",
+      "organization": "پروژه‌های مستقل",
+      "period": "خرداد ۱۳۹۳ — اکنون",
+      "summary": "طراحی و توسعه ده‌ها نرم‌افزار اندروید و سامانه تحت وب."
+    },
+    {
+      "sortOrder": 139310,
+      "kind": "software",
+      "category": "development",
+      "title": "نرم‌افزارهای منتشرشده (نمونه‌ها)",
+      "organization": "کافه‌بازار و وب",
+      "period": "۱۳۹۳ — اکنون",
+      "summary": "بیش از ۲۰ نرم‌افزار آموزشی، فرهنگی و کاربردی.",
+      "highlights": [
+        "استارتیچ، شهدای چاراویماق، چاراویماق",
+        "سقوط انسان از خلیفه الهی، صرف افعال عربی",
+        "نهج‌البلاغه منظوم، یاد یار، فوتبالینو",
+        "آموزش AIDE، واژه‌نامه بورس، خانواده برتر"
+      ]
+    }
+  ]
+}

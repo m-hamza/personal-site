@@ -1,0 +1,125 @@
+{
+  "channels": [
+    {
+      "id": "phone",
+      "label": "موبایل",
+      "value": "09394812277",
+      "href": "tel:+989394812277",
+      "icon": "fas fa-phone-alt",
+      "places": [
+        "tab",
+        "dock",
+        "footer"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "label": "واتساپ",
+      "value": "+98 939 481 2277",
+      "href": "https://wa.me/989394812277",
+      "icon": "fab fa-whatsapp",
+      "external": true,
+      "places": [
+        "tab",
+        "dock",
+        "footer",
+        "hero"
+      ]
+    },
+    {
+      "id": "telegram",
+      "label": "تلگرام",
+      "value": "@hi_helper",
+      "href": "https://t.me/hi_helper",
+      "icon": "fab fa-telegram-plane",
+      "external": true,
+      "places": [
+        "tab",
+        "dock",
+        "footer",
+        "hero"
+      ]
+    },
+    {
+      "id": "email",
+      "label": "ایمیل",
+      "value": "mohammadhamza192@gmail.com",
+      "href": "mailto:mohammadhamza192@gmail.com",
+      "icon": "fas fa-envelope",
+      "places": [
+        "tab",
+        "dock",
+        "footer",
+        "hero"
+      ]
+    },
+    {
+      "id": "instagram",
+      "label": "اینستاگرام",
+      "value": "m.hamza.ir",
+      "href": "https://instagram.com/m.hamza.ir",
+      "icon": "fab fa-instagram",
+      "external": true,
+      "places": [
+        "tab",
+        "hero"
+      ]
+    },
+    {
+      "id": "github",
+      "label": "گیت‌هاب",
+      "value": "m-hamza",
+      "href": "https://github.com/m-hamza",
+      "icon": "fab fa-github",
+      "external": true,
+      "places": [
+        "tab",
+        "hero"
+      ]
+    },
+    {
+      "id": "linkedin",
+      "label": "لینکدین",
+      "value": "m-hamza-ir",
+      "href": "https://www.linkedin.com/in/m-hamza-ir/",
+      "icon": "fab fa-linkedin-in",
+      "external": true,
+      "places": [
+        "tab",
+        "hero"
+      ]
+    },
+    {
+      "id": "website",
+      "label": "وب‌سایت",
+      "value": "m-hamza.ir",
+      "href": "https://m-hamza.ir",
+      "icon": "fas fa-globe",
+      "external": true,
+      "places": [
+        "tab"
+      ]
+    },
+    {
+      "id": "starteach",
+      "label": "استارتیچ",
+      "value": "starteach.ir",
+      "href": "https://starteach.ir",
+      "icon": "fas fa-star",
+      "external": true,
+      "places": [
+        "tab"
+      ]
+    },
+    {
+      "id": "landline",
+      "label": "تلفن ثابت",
+      "value": "04152722053",
+      "href": "tel:+984152722053",
+      "icon": "fas fa-phone",
+      "places": [
+        "tab"
+      ]
+    }
+  ]
+}

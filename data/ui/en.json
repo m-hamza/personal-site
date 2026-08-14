@@ -1,0 +1,72 @@
+{
+  "home": "Home",
+  "hireMe": "Hire me",
+  "viewProjects": "View projects",
+  "visitSite": "Visit website",
+  "all": "All",
+  "skills": "Skills",
+  "languagesTitle": "Languages",
+  "contact": "Contact",
+  "footer": "© {year} Mohammad Hamza — All rights reserved",
+  "languages": [
+    {
+      "code": "fa",
+      "label": "فارسی",
+      "dir": "rtl"
+    },
+    {
+      "code": "en",
+      "label": "English",
+      "dir": "ltr"
+    }
+  ],
+  "nav": [
+    {
+      "id": "contact",
+      "label": "Contact",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "icon": "fas fa-briefcase"
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "id": "timeline",
+      "label": "Timeline",
+      "icon": "fas fa-stream"
+    },
+    {
+      "id": "profile",
+      "label": "Profile",
+      "icon": "fas fa-user"
+    }
+  ],
+  "aboutSection": "About me",
+  "education": "Education",
+  "publications": "Research & publications",
+  "teaching": "Teaching",
+  "interests": "Interests",
+  "certificates": "Certificates",
+  "memberships": "Memberships",
+  "viewBook": "View",
+  "sectionProjects": "Projects",
+  "sectionServices": "Services",
+  "sectionTimeline": "Activity timeline",
+  "sectionProfile": "Profile",
+  "projectsLead": "All products and projects — from EdTech platforms to Android apps and web systems",
+  "servicesLead": "Services for business growth, digital products, and online presence — from WordPress and custom design to React, mobile, and AI",
+  "timelineLead": "Professional journey from idea to execution — jobs, projects, and software in one view",
+  "profileTabs": {
+    "about": "About me",
+    "skills": "Skills",
+    "education": "Education & publications",
+    "more": "More",
+    "techSkills": "Technical skills"
+  }
+}

@@ -1,6 +1,37 @@
 import { DEFAULT_LANG, SUPPORTED_LANGS, getBasePath } from "./config.js";
 
 const listeners = [];
+const DATA_MODULES = ["meta", "ui", "contacts", "profile", "services", "timeline"];
+
+async function fetchJson(url) {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Failed to load ${url}`);
+    return response.json();
+}
+
+function mergePageData(modules) {
+    const { meta, ui, contacts, profile, services, timeline } = modules;
+
+    return {
+        meta,
+        ui,
+        contacts: contacts.channels,
+        profile: profile.profile,
+        about: profile.about,
+        aboutSkills: profile.aboutSkills,
+        aboutPm: profile.aboutPm,
+        services: services.services,
+        resume: {
+            pdf: timeline.pdf,
+            stats: profile.stats,
+            education: profile.education,
+            profileBlock: profile.profileBlock,
+            activityTimeline: timeline.activityTimeline,
+            categoryLabels: timeline.categoryLabels,
+            kindLabels: timeline.kindLabels,
+        },
+    };
+}
 
 export function getSavedLang() {
     const param = new URLSearchParams(window.location.search).get("lang");
@@ -10,11 +41,18 @@ export function getSavedLang() {
 }
 
 export async function loadData(lang = getSavedLang()) {
-    const response = await fetch(`${getBasePath()}data/${lang}.json`);
-    if (!response.ok) {
-        throw new Error(`Failed to load ${lang}.json`);
-    }
-    return response.json();
+    const base = `${getBasePath()}data`;
+    const entries = await Promise.all(
+        DATA_MODULES.map(async (name) => {
+            const data = await fetchJson(`${base}/${name}/${lang}.json`);
+            return [name, data];
+        })
+    );
+    return mergePageData(Object.fromEntries(entries));
+}
+
+export async function loadProjects(lang = getSavedLang()) {
+    return fetchJson(`${getBasePath()}data/projects/${lang}.json`);
 }
 
 export function applyDocumentLang(data) {

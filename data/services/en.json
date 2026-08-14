@@ -1,0 +1,180 @@
+{
+  "services": [
+    {
+      "icon": "fas fa-project-diagram",
+      "title": "Project & product management",
+      "description": "Product definition, MVP design, scheduling, team management, and shippable delivery — from idea to commercialization.",
+      "audience": "For startups, growing businesses, and leaders who need a hands-on product owner",
+      "tags": [
+        "Agile",
+        "MVP",
+        "Product"
+      ]
+    },
+    {
+      "icon": "fas fa-laptop-code",
+      "title": "Custom web & backend systems",
+      "description": "Corporate sites, admin panels, marketplaces, CRM, and APIs with Laravel, PHP, and scalable architecture.",
+      "audience": "For businesses that need bespoke systems instead of off-the-shelf templates",
+      "tags": [
+        "Laravel",
+        "PHP",
+        "API"
+      ]
+    },
+    {
+      "icon": "fab fa-wordpress",
+      "title": "WordPress website design",
+      "description": "Corporate, news, education, cultural, personal, and store websites with WordPress — custom themes or professional customization for any niche.",
+      "audience": "For businesses, schools, media outlets, and cultural organizations that need fast launch and easy management",
+      "tags": [
+        "WordPress",
+        "WooCommerce",
+        "Elementor"
+      ]
+    },
+    {
+      "icon": "fas fa-paint-brush",
+      "title": "Custom website design for various topics",
+      "description": "Fully bespoke websites tailored to your field — news, culture, education, NGOs, medical, legal, religious, and business.",
+      "audience": "For organizations and brands that need a unique visual identity and custom structure",
+      "tags": [
+        "Custom Design",
+        "UI/UX",
+        "Branding"
+      ]
+    },
+    {
+      "icon": "fab fa-react",
+      "title": "React frontend development",
+      "description": "Modern UI, SPAs, dashboards, and admin panels with React — fast, interactive, and extensible.",
+      "audience": "For startups and teams that need advanced interfaces and smooth user experience",
+      "tags": [
+        "React",
+        "SPA",
+        "Frontend"
+      ]
+    },
+    {
+      "icon": "fab fa-android",
+      "title": "Mobile applications",
+      "description": "Android apps with Flutter, Kotlin, and Java — from concept to Cafe Bazaar release.",
+      "audience": "For brands, schools, and mobile-first businesses",
+      "tags": [
+        "Flutter",
+        "Kotlin",
+        "Android"
+      ]
+    },
+    {
+      "icon": "fas fa-globe",
+      "title": "PWA / TWA & web apps",
+      "description": "Lightweight installable web apps for browser or store distribution without heavy native maintenance.",
+      "audience": "For teams that want faster store presence or lighter installs",
+      "tags": [
+        "PWA",
+        "TWA",
+        "Web App"
+      ]
+    },
+    {
+      "icon": "fas fa-shopping-cart",
+      "title": "Online store & marketplace",
+      "description": "E-commerce setup, payments, catalog management, promotions, and marketing integrations.",
+      "audience": "For sellers and platforms serious about online revenue",
+      "tags": [
+        "E-commerce",
+        "Marketplace",
+        "WooCommerce"
+      ]
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "SEO, marketing & content",
+      "description": "Google optimization, digital campaigns, content production, link building, and organic growth.",
+      "audience": "For businesses prioritizing traffic, brand, and online sales",
+      "tags": [
+        "SEO",
+        "Content",
+        "Growth"
+      ]
+    },
+    {
+      "icon": "fas fa-robot",
+      "title": "EdTech & applied AI",
+      "description": "Learning platforms, course marketplaces, research tools, and smart assistants for your domain.",
+      "audience": "For educators and teams adopting AI in their product",
+      "tags": [
+        "EdTech",
+        "AI",
+        "Starteach"
+      ]
+    },
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Startup & MVP consulting",
+      "description": "Idea validation, feature prioritization, cost/time estimates, and roadmap to a presentable v1.",
+      "audience": "For founders who need clarity before heavy investment",
+      "tags": [
+        "Consulting",
+        "MVP",
+        "Roadmap"
+      ]
+    },
+    {
+      "icon": "fas fa-plug",
+      "title": "Automation, API & integration",
+      "description": "Web services, system integration, SMS panels, workflow automation, and internal tools.",
+      "audience": "For companies with repetitive processes or multiple systems to connect",
+      "tags": [
+        "API",
+        "Automation",
+        "Integration"
+      ]
+    },
+    {
+      "icon": "fas fa-tools",
+      "title": "Support, maintenance & iteration",
+      "description": "Bug fixes, updates, new features, and performance improvements for existing products.",
+      "audience": "For site and app owners who need a reliable technical partner",
+      "tags": [
+        "Maintenance",
+        "Support",
+        "DevOps"
+      ]
+    },
+    {
+      "icon": "fas fa-palette",
+      "title": "UI/UX & user experience design",
+      "description": "Interface design, wireframes, prototypes, and user-flow optimization for digital products.",
+      "audience": "For products that need professional design and UX testing before development",
+      "tags": [
+        "UI/UX",
+        "Prototype",
+        "Design"
+      ]
+    },
+    {
+      "icon": "fas fa-server",
+      "title": "Hosting, domain & full setup",
+      "description": "Domain registration, hosting, SSL, server configuration, and end-to-end site launch.",
+      "audience": "For businesses that want to go online without technical hassle",
+      "tags": [
+        "Hosting",
+        "SSL",
+        "DevOps"
+      ]
+    },
+    {
+      "icon": "fab fa-wordpress-simple",
+      "title": "WordPress maintenance & optimization",
+      "description": "Plugin updates, security, speed, backups, and technical fixes for WordPress sites.",
+      "audience": "For WordPress site owners who need ongoing technical support and performance tuning",
+      "tags": [
+        "WordPress",
+        "Security",
+        "Performance"
+      ]
+    }
+  ]
+}

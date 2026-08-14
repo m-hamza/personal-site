@@ -1,0 +1,72 @@
+{
+  "home": "خانه",
+  "hireMe": "سفارش پروژه",
+  "viewProjects": "مشاهده پروژه‌ها",
+  "visitSite": "ورود به سایت",
+  "all": "همه",
+  "skills": "مهارت‌ها",
+  "languagesTitle": "زبان‌ها",
+  "contact": "تماس",
+  "aboutSection": "درباره من",
+  "education": "تحصیلات",
+  "publications": "تحقیقات و تألیفات",
+  "teaching": "توانایی تدریس",
+  "interests": "علاقه‌مندی‌ها",
+  "certificates": "گواهینامه‌ها",
+  "memberships": "عضویت‌ها",
+  "viewBook": "مشاهده",
+  "sectionProjects": "پروژه‌ها",
+  "sectionServices": "خدمات",
+  "sectionTimeline": "تایم‌لاین فعالیت‌ها",
+  "sectionProfile": "پروفایل",
+  "projectsLead": "همه محصولات و پروژه‌ها — از پلتفرم آموزشی تا اپ اندرویدی و سامانه تحت وب",
+  "servicesLead": "خدماتی که برای رشد کسب‌وکار، محصول دیجیتال و حضور آنلاین شما طراحی شده‌اند — از وردپرس و طراحی اختصاصی تا React، موبایل و هوش مصنوعی",
+  "timelineLead": "مسیر حرفه‌ای از ایده تا اجرا — سوابق شغلی، پروژه‌ها و نرم‌افزارها در یک نگاه",
+  "profileTabs": {
+    "about": "درباره من",
+    "skills": "مهارت‌ها",
+    "education": "تحصیلات و تألیفات",
+    "more": "سایر",
+    "techSkills": "مهارت‌های فنی"
+  },
+  "footer": "© {year} محمد حمزه — تمامی حقوق محفوظ است",
+  "languages": [
+    {
+      "code": "fa",
+      "label": "فارسی",
+      "dir": "rtl"
+    },
+    {
+      "code": "en",
+      "label": "English",
+      "dir": "ltr"
+    }
+  ],
+  "nav": [
+    {
+      "id": "contact",
+      "label": "تماس",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "id": "projects",
+      "label": "پروژه‌ها",
+      "icon": "fas fa-briefcase"
+    },
+    {
+      "id": "services",
+      "label": "خدمات",
+      "icon": "fas fa-handshake"
+    },
+    {
+      "id": "timeline",
+      "label": "سوابق",
+      "icon": "fas fa-stream"
+    },
+    {
+      "id": "profile",
+      "label": "پروفایل",
+      "icon": "fas fa-user"
+    }
+  ]
+}

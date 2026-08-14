@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمد حمزه | توسعه‌دهنده وب</title>
-    <meta name="description" content="سایت شخصی محمد حمزه؛ توسعه وب، اندروید، دیجیتال مارکتینگ و ارائه خدمات برای پروژه‌های داخلی و بین‌المللی.">
+    <title>محمد حمزه | بنیان‌گذار استارتیچ</title>
+    <meta name="description" content="بنیان‌گذار استارتیچ؛ مدیر پروژه و توسعه‌دهنده محصولات دیجیتال — وب، اندروید، Flutter، Kotlin و PWA. از ایده تا تجاری‌سازی.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://m-hamza.ir/">
     <link rel="alternate" hreflang="fa" href="https://m-hamza.ir/">
     <link rel="alternate" hreflang="en" href="https://m-hamza.ir/?lang=en">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -31,32 +33,70 @@
             </div>
         </div>
 
-        <header id="main-info">
-            <img src="gibli.jpg" alt="عکس پروفایل" class="profile-image lazy-load" loading="lazy">
-            <h1 id="name"></h1>
-            <p class="headline" id="headline"></p>
-            <p class="description" id="description"></p>
-            <div class="hero-actions" id="heroActions"></div>
-            <div class="social-links" id="socialLinks"></div>
-        </header>
-
-        <main class="tabs-container">
-            <nav class="tab-nav" id="tabNav"></nav>
-            <div class="tab-content">
-                <div id="projects-tab" class="tab-pane active">
-                    <div class="project-grid" id="siteList"></div>
+        <header id="main-info" class="hero">
+            <div class="hero-grid">
+                <div class="hero-visual">
+                    <img src="gibli.jpg" alt="عکس پروفایل" class="profile-image lazy-load" loading="lazy">
+                    <div class="hero-stats" id="heroStats"></div>
                 </div>
-                <div id="services-tab" class="tab-pane">
-                    <div class="service-grid" id="servicesList"></div>
-                </div>
-                <div id="about-tab" class="tab-pane">
-                    <div id="aboutContent" class="content-card"></div>
-                </div>
-                <div id="contact-tab" class="tab-pane">
-                    <div id="contactContent" class="content-card"></div>
+                <div class="hero-content">
+                    <h1 id="name"></h1>
+                    <p class="headline" id="headline"></p>
+                    <p class="hero-meta" id="heroMeta"></p>
+                    <p class="description" id="description"></p>
+                    <div class="hero-actions" id="heroActions"></div>
+                    <div class="social-links" id="socialLinks"></div>
                 </div>
             </div>
+        </header>
+
+        <div class="tabs-container page-tabs" id="mainTabs">
+        <nav class="tab-nav section-nav no-print" id="sectionNav" aria-label="ناوبری صفحه"></nav>
+
+        <main class="tab-content page-sections">
+            <section id="contact-tab" class="tab-pane active page-section">
+                <div class="section-header">
+                    <h2 id="contactTitle"><i class="fas fa-envelope"></i> تماس</h2>
+                </div>
+                <div id="contactContent" class="contact-grid"></div>
+            </section>
+
+            <section id="projects-tab" class="tab-pane page-section">
+                <div class="section-header">
+                    <h2 id="projectsTitle"><i class="fas fa-briefcase"></i> پروژه‌ها</h2>
+                    <p class="section-lead" id="projectsLead"></p>
+                </div>
+                <section class="starteach-hub" id="starteachHub"></section>
+                <div class="project-filters" id="projectFilters"></div>
+                <div class="project-grid" id="siteList"></div>
+            </section>
+
+            <section id="services-tab" class="tab-pane page-section">
+                <div class="section-header">
+                    <h2 id="servicesTitle"><i class="fas fa-handshake"></i> خدمات</h2>
+                    <p class="section-lead" id="servicesLead"></p>
+                </div>
+                <div class="service-grid" id="servicesList"></div>
+            </section>
+
+            <section id="timeline-tab" class="tab-pane page-section">
+                <div class="section-header">
+                    <h2 id="timelineTitle"><i class="fas fa-stream"></i> تایم‌لاین فعالیت‌ها</h2>
+                    <p class="section-lead" id="timelineLead"></p>
+                </div>
+                <div class="timeline-filters no-print" id="timelineFilters"></div>
+                <div class="activity-timeline" id="activityTimeline"></div>
+            </section>
+
+            <section id="profile-tab" class="tab-pane page-section">
+                <div class="section-header">
+                    <h2 id="profileTitle"><i class="fas fa-user"></i> پروفایل</h2>
+                </div>
+                <div id="profileContent"></div>
+            </section>
+
         </main>
+        </div>
 
         <footer>
             <div class="footer-contacts" id="footerContacts"></div>
@@ -69,16 +109,20 @@
     </button>
 
     <div class="modal fade" id="siteModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="siteModalLabel"></h5>
+                    <div class="modal-header-info">
+                        <img id="siteModalIcon" class="modal-app-icon" src="" alt="" hidden>
+                        <div>
+                            <h5 class="modal-title" id="siteModalLabel"></h5>
+                            <span class="modal-status" id="siteModalStatus"></span>
+                        </div>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="siteModalBody"></div>
-                <div class="modal-footer">
-                    <a href="#" id="siteLink" class="modal-btn" target="_blank" rel="noopener noreferrer"></a>
-                </div>
+                <div class="modal-footer" id="siteModalFooter"></div>
             </div>
         </div>
     </div>

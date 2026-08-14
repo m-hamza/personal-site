@@ -1,0 +1,160 @@
+{
+  "profile": {
+    "name": "Mohammad Hamza",
+    "headline": "Founder of Starteach | Product lead & full-stack developer",
+    "tagline": "From idea to commercialization — project management, web & mobile development, SEO and digital marketing",
+    "photo": "gibli.jpg",
+    "birthDateLabel": "Born 1374 (1995)",
+    "location": "East Azerbaijan"
+  },
+  "about": "I am Mohammad Hamza, founder of Starteach (starteach.ir). Instead of building a separate brand for every idea, I develop all my products under one brand hub. My career combines project management, technical development, and business growth — from Laravel and React and Flutter to Kotlin and PWA/TWA. I hold a Master's degree in Child and Adolescent Education, but my main focus is practical skills that help me deliver projects and build products.",
+  "aboutSkills": [
+    "Project management (idea to launch)",
+    "Laravel & PHP",
+    "React & JavaScript",
+    "Flutter & Dart",
+    "Kotlin & Android",
+    "PWA / TWA",
+    "WordPress",
+    "Custom web design",
+    "Custom development",
+    "SEO & digital marketing",
+    "Content production",
+    "Applied AI"
+  ],
+  "aboutPm": {
+    "title": "Project management — from idea to commercialization",
+    "text": "In every project I hold the primary role: product definition, MVP design, team and timeline management, technical development, SEO and marketing, content production, solving challenges, and go-to-market. This approach makes my products real businesses, not just code."
+  },
+  "stats": [
+    {
+      "value": "+10",
+      "label": "Years experience"
+    },
+    {
+      "value": "+20",
+      "label": "Products"
+    },
+    {
+      "value": "+15",
+      "label": "Apps"
+    }
+  ],
+  "education": {
+    "title": "M.A. Child & Adolescent Education",
+    "graduation": "Graduated 2021 (1400)"
+  },
+  "profileBlock": {
+    "skills": [
+      {
+        "name": "Project & product management",
+        "level": "Expert",
+        "percent": 92
+      },
+      {
+        "name": "Laravel & PHP",
+        "level": "Expert",
+        "percent": 90
+      },
+      {
+        "name": "React & JavaScript",
+        "level": "Advanced",
+        "percent": 82
+      },
+      {
+        "name": "Flutter & Android",
+        "level": "Expert",
+        "percent": 85
+      },
+      {
+        "name": "Kotlin",
+        "level": "Advanced",
+        "percent": 80
+      },
+      {
+        "name": "SEO & marketing",
+        "level": "Expert",
+        "percent": 88
+      },
+      {
+        "name": "PWA / TWA",
+        "level": "Advanced",
+        "percent": 82
+      },
+      {
+        "name": "Applied AI",
+        "level": "Growing",
+        "percent": 75
+      }
+    ],
+    "languages": [
+      {
+        "name": "Persian",
+        "level": "Native",
+        "percent": 100
+      },
+      {
+        "name": "English",
+        "level": "Intermediate",
+        "percent": 55
+      },
+      {
+        "name": "Azeri Turkish",
+        "level": "Intermediate",
+        "percent": 60
+      }
+    ],
+    "teaching": [
+      "Mobile programming",
+      "SEO & marketing",
+      "Mobile video editing",
+      "No-code web design",
+      "Life skills",
+      "Language teaching"
+    ],
+    "interests": [
+      "AI & emerging tech",
+      "Walking, cardio & swimming",
+      "Online teaching & services",
+      "Business & psychology reading",
+      "Educational topics",
+      "Web & Android development"
+    ],
+    "certificates": [
+      "ICDL",
+      "Technical & vocational institute"
+    ],
+    "memberships": [
+      "Sefiran Abadani & Progress group — Charoyamaq",
+      "Charoyamaq artists association",
+      "Seda-ye Charoyamaq group",
+      "Sahand Charoyamaq cooperative",
+      "Naghsh-e Almas e-commerce institute"
+    ],
+    "publications": [
+      {
+        "title": "The role of cultural jihad against soft war",
+        "publisher": "Akhlaq Elahi",
+        "date": "Sep 2019",
+        "link": "https://ketab.ir/book/06c24097-9d5f-444a-ae1c-85b7b507d451"
+      },
+      {
+        "title": "Factors of human fall from divine vicegerency (Quranic view)",
+        "publisher": "Assem",
+        "date": "Jan 2022",
+        "link": "https://ketab.ir/book/7ffccd8d-f07e-402d-a93f-0b4d92c69936"
+      },
+      {
+        "title": "Relations between Muslims and non-Muslims",
+        "publisher": "Akhlaq Elahi",
+        "date": "Apr 2022",
+        "link": "https://ketab.ir/book/1c332d3d-3597-4e53-aa12-2c234f246cfe"
+      },
+      {
+        "title": "Civilization-building generational education; first seven years",
+        "publisher": "In progress",
+        "date": ""
+      }
+    ]
+  }
+}

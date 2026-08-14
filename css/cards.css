@@ -12,6 +12,130 @@
     }
 }
 
+@media (min-width: 1100px) {
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Starteach Hub */
+.starteach-hub {
+    margin-bottom: 28px;
+}
+
+.hub-card {
+    background: linear-gradient(135deg, rgba(58, 123, 213, 0.12), rgba(0, 210, 255, 0.08));
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hub-card::before {
+    content: "";
+    position: absolute;
+    top: -40%;
+    left: -10%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(58, 123, 213, 0.15), transparent 70%);
+    pointer-events: none;
+}
+
+.hub-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--gradient);
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.hub-card h2 {
+    font-size: 1.5rem;
+    margin: 0 0 6px;
+    color: var(--text-color);
+}
+
+.hub-subtitle {
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.hub-desc {
+    line-height: 1.9;
+    color: var(--text-secondary-color);
+    margin-bottom: 20px;
+}
+
+.hub-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.hub-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.hub-stat strong {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.hub-stat span {
+    font-size: 0.85rem;
+    color: var(--text-secondary-color);
+}
+
+.hub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Filters */
+.project-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background: var(--light-color);
+    color: var(--text-secondary-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--gradient);
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Project Cards */
 .project-card,
 .service-card {
     background: var(--light-color);
@@ -20,6 +144,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .service-card {
@@ -32,19 +158,86 @@
     box-shadow: var(--shadow-md);
 }
 
+.project-card.featured {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 1px rgba(58, 123, 213, 0.2);
+}
+
+.project-card.status-retired {
+    opacity: 0.72;
+}
+
+.project-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.project-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.project-icon-placeholder {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: rgba(58, 123, 213, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.project-status {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.status-active {
+    background: rgba(40, 167, 69, 0.15);
+    color: #28a745;
+}
+
+.status-retired {
+    background: rgba(108, 117, 125, 0.15);
+    color: #6c757d;
+}
+
+.status-maintenance {
+    background: rgba(255, 193, 7, 0.15);
+    color: #d39e00;
+}
+
 .project-card h3,
 .service-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     margin: 0;
     color: var(--text-color);
+    line-height: 1.5;
+}
+
+.project-period {
+    font-size: 0.78rem;
+    color: var(--text-secondary-color);
+    margin: 4px 0 8px;
 }
 
 .project-card p,
 .service-card p {
     font-size: 0.9rem;
     color: var(--text-secondary-color);
-    margin-top: 8px;
+    margin-top: 0;
     line-height: 1.7;
+    flex-grow: 1;
 }
 
 .service-card i {
@@ -56,6 +249,31 @@
 .content-card {
     padding: 10px;
     line-height: 2;
+}
+
+.philosophy-card,
+.about-skills,
+.about-pm {
+    margin-top: 28px;
+    padding: 20px;
+    background: var(--light-color);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--border-color);
+}
+
+.philosophy-card h3,
+.about-skills h3,
+.about-pm h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-secondary-color);
+    padding: 40px;
 }
 
 .tag-list {

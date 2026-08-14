@@ -1,17 +1,53 @@
-export function renderSocialLinks(container, links = []) {
-    container.innerHTML = links.map((social) => `
+import { escapeHtml } from "./utils.js";
+
+const PHONE_IDS = new Set(["phone", "whatsapp", "landline"]);
+
+function channelPlaces(channel) {
+    if (channel.places?.length) return channel.places;
+    const places = ["tab"];
+    if (channel.showEverywhere) places.push("dock", "footer");
+    return places;
+}
+
+function hasPlace(channel, place) {
+    return channelPlaces(channel).includes(place);
+}
+
+function formatContactValue(item) {
+    if (PHONE_IDS.has(item.id)) {
+        return `<span class="ltr-text" dir="ltr">${escapeHtml(item.value)}</span>`;
+    }
+    return escapeHtml(item.value);
+}
+
+export function getHeroSocialLinks(channels = []) {
+    return channels
+        .filter((channel) => hasPlace(channel, "hero"))
+        .map((channel) => ({
+            name: channel.label,
+            link: channel.href,
+            icon: channel.icon,
+        }));
+}
+
+export function renderSocialLinks(container, channels = []) {
+    container.innerHTML = getHeroSocialLinks(channels).map((social) => `
         <a href="${social.link}" target="_blank" rel="noopener noreferrer" aria-label="${social.name}">
             <i class="${social.icon}"></i>
         </a>
     `).join("");
 }
 
-export function renderContactList(container, contacts = []) {
-    container.innerHTML = contacts.map((item) => `
+export function renderContactList(container, channels = []) {
+    const items = channels.filter((channel) => hasPlace(channel, "tab"));
+    container.innerHTML = items.map((item) => `
         <div class="contact-item">
             <i class="${item.icon}"></i>
-            <a href="${item.href}" ${item.external ? 'target="_blank" rel="noopener noreferrer"' : ""}>${item.value}</a>
-            <button type="button" class="contact-copy" data-copy="${item.value}" aria-label="copy">
+            <div class="contact-item-body">
+                <span class="contact-label">${escapeHtml(item.label)}</span>
+                <a href="${item.href}" ${item.external ? 'target="_blank" rel="noopener noreferrer"' : ""}>${formatContactValue(item)}</a>
+            </div>
+            <button type="button" class="contact-copy" data-copy="${item.value.replace(/"/g, '&quot;')}" aria-label="copy">
                 <i class="fas fa-copy"></i>
             </button>
         </div>
@@ -32,16 +68,16 @@ export function renderContactList(container, contacts = []) {
     });
 }
 
-export function renderFooterContacts(container, contacts = []) {
-    const items = contacts.filter((item) => item.showEverywhere);
+export function renderFooterContacts(container, channels = []) {
+    const items = channels.filter((channel) => hasPlace(channel, "footer"));
     container.innerHTML = items.map((item) => `
         <a href="${item.href}" ${item.external ? 'target="_blank" rel="noopener noreferrer"' : ""}>
-            <i class="${item.icon}"></i> ${item.label}
+            <i class="${item.icon}"></i> ${escapeHtml(item.label)}
         </a>
     `).join("");
 }
 
-export function renderContactDock(contacts = []) {
+export function renderContactDock(channels = []) {
     let dock = document.getElementById("contactDock");
     if (!dock) {
         dock = document.createElement("nav");
@@ -51,7 +87,7 @@ export function renderContactDock(contacts = []) {
         document.body.appendChild(dock);
     }
 
-    const items = contacts.filter((item) => item.showEverywhere);
+    const items = channels.filter((channel) => hasPlace(channel, "dock"));
     dock.innerHTML = items.map((item) => `
         <a href="${item.href}" data-id="${item.id}" title="${item.label}" ${item.external ? 'target="_blank" rel="noopener noreferrer"' : ""}>
             <i class="${item.icon}"></i>

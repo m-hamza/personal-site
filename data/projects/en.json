@@ -1,0 +1,1005 @@
+{
+  "hub": {
+    "title": "Starteach — Digital Product Hub",
+    "subtitle": "Start Each: every project, a fresh beginning",
+    "description": "I am the founder of Starteach (starteach.ir). Instead of building a separate brand and website for every idea, I develop all products under one umbrella brand with identities rooted in Starteach. Starteach is a project hub — from education and software to media and tools — with the goal of Start Each: a fresh start for learning, building, and growth. Today my main focus is developing and commercializing this platform.",
+    "link": "https://starteach.ir",
+    "bazaarLink": "https://cafebazaar.ir/developer/starteach",
+    "stats": [
+      {
+        "value": "13+",
+        "label": "Published apps"
+      },
+      {
+        "value": "18K+",
+        "label": "Early audience"
+      },
+      {
+        "value": "10+",
+        "label": "Years of product leadership"
+      }
+    ]
+  },
+  "philosophy": {
+    "title": "From perfectionism to action",
+    "text": "I am always committed to upgrading my skills and learning, but I shifted from perfectionism to action. Instead of waiting for an ideal day that may never come, I start with what I have, solve challenges through different approaches, and treat every decision as the best decision at that moment. If I later realize it was wrong, I fix it — without getting stuck in the past."
+  },
+  "filters": {
+    "all": "All",
+    "active": "Active",
+    "retired": "Retired",
+    "hub": "Starteach hub",
+    "software": "Software",
+    "web": "Website",
+    "media": "Media",
+    "cultural": "Cultural",
+    "business": "Business"
+  },
+  "modal": {
+    "role": "My primary role",
+    "vision": "Vision & goal",
+    "process": "Execution flow (idea to market)",
+    "tech": "Technology & architecture",
+    "marketing": "Marketing & growth",
+    "seo": "SEO & visibility",
+    "content": "Content production",
+    "challenges": "Challenges & solutions",
+    "outcomes": "Outcomes",
+    "statusActive": "Active",
+    "statusRetired": "Retired",
+    "statusMaintenance": "Maintenance",
+    "visitSite": "Visit website",
+    "visitBazaar": "Cafe Bazaar page",
+    "noLink": "No active link"
+  },
+  "projects": [
+    {
+      "id": "starteach",
+      "name": "استارتیچ — پلتفرم جامع آموزشی",
+      "category": "hub",
+      "status": "active",
+      "featured": true,
+      "type": "platform",
+      "period": "شهریور ۱۴۰۰ — اکنون",
+      "link": "https://starteach.ir",
+      "bazaarLink": "https://cafebazaar.ir/app/starteach.ir",
+      "icon": "https://s.cafebazaar.ir/images/icons/starteach.ir-f9c04a3f-ee7b-4faa-b579-ecf8a36372ee_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "مارکت‌پلیس و سامانه آموزش آنلاین؛ محور اصلی هاب استارتیچ و تمرکز فعلی من.",
+      "tags": [
+        "EdTech",
+        "Laravel",
+        "مدیریت محصول"
+      ],
+      "role": "بنیان‌گذار، مدیر پروژه و توسعه‌دهنده اصلی — از ایده و معماری تا انتشار و رشد.",
+      "vision": "ساخت جامع‌ترین اکوسیستم آموزشی ایرانی تحت یک برند واحد؛ جایی که هر مهارت، یک «شروع تازه» داشته باشد.",
+      "process": [
+        "تحقیق بازار و تعریف MVP مارکت‌پلیس دوره",
+        "طراحی معماری وب با PHP/Laravel و پنل مدیریت",
+        "توسعه نسخه اندروید و اتصال به اکوسیستم",
+        "راه‌اندازی کمپین جذب مدرس و مخاطب",
+        "تکرار محصول بر اساس بازخورد ۱۸ هزار مخاطب اولیه",
+        "تجاری‌سازی با درآمد دوره، اشتراک و خدمات جانبی"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Android",
+        "REST API",
+        "WordPress (لندینگ)"
+      ],
+      "marketing": "کمپین پیامکی، شبکه‌های اجتماعی، همکاری با مدرسین، تخفیف‌های فصلی و معرفی در کافه‌بازار.",
+      "seo": "بهینه‌سازی صفحات دوره، ساختار URL تمیز، محتوای آموزشی رایگان برای جذب ارگانیک.",
+      "content": "تولید معرفی دوره، ویدیو تبلیغاتی، خلاصه درسنامه و محتوای بلاگ آموزشی.",
+      "challenges": "رقابت با پلتفرم‌های بزرگ؛ حل با تمرکز بر نیچ‌های تخصصی (استخدام، عربی، فقه) و کیفیت محتوا.",
+      "outcomes": "بیش از ۱۸ هزار مخاطب اولیه، ۱۳+ اپ منتشرشده در کافه‌بازار، اکوسیستم یکپارچه تحت برند استارتیچ.",
+      "weight": 100
+    },
+    {
+      "id": "starteach-hiring-exam",
+      "name": "آزمون استخدامی (استارتیچ)",
+      "category": "software",
+      "status": "active",
+      "type": "android",
+      "period": "۱۴۰۳ — اکنون",
+      "link": "https://cafebazaar.ir/app/starteach.ir",
+      "bazaarLink": "https://cafebazaar.ir/app/starteach.ir",
+      "icon": "https://s.cafebazaar.ir/images/icons/starteach.ir-f9c04a3f-ee7b-4faa-b579-ecf8a36372ee_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "جامع‌ترین پلتفرم شبیه‌سازی آزمون استخدامی با منابع، تست و تحلیل هوشمند.",
+      "tags": [
+        "آموزش",
+        "استخدام",
+        "۴.۵★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی — طراحی محصول، محتوا و انتشار.",
+      "vision": "هموار کردن مسیر استرس‌زای آمادگی آزمون استخدامی با منابع دقیق و شبیه‌سازی واقعی.",
+      "process": [
+        "تحلیل نیاز کارجویان",
+        "جمع‌آوری و خلاصه‌سازی منابع",
+        "طراحی UX آزمون آنلاین",
+        "پیاده‌سازی و انتشار در کافه‌بازار",
+        "به‌روزرسانی منابع ۱۴۰۴/۱۴۰۵"
+      ],
+      "tech": [
+        "Android",
+        "PHP Backend",
+        "هوش مصنوعی (پشتیبانی)"
+      ],
+      "marketing": "کلمات کلیدی استخدامی، تخفیف فصلی، نظرات کاربران و معرفی در اکوسیستم استارتیچ.",
+      "seo": "بهینه‌سازی توضیحات کافه‌بازار با کلمات کلیدی: آزمون استخدامی ۱۴۰۴، استخدام دولتی.",
+      "content": "خلاصه منابع، تست‌های طبقه‌بندی‌شده، پاسخ تشریحی و برنامه مطالعه.",
+      "challenges": "پوشش همه دروس؛ حل با اولویت‌بندی دروس پرتقاضا و به‌روزرسانی مستمر.",
+      "outcomes": "۱۴ هزار+ نصب، امتیاز ۴.۵ از ۲۳۵ رأی در کافه‌بازار.",
+      "weight": 98
+    },
+    {
+      "id": "charoymagh-app",
+      "name": "چاراویماق",
+      "category": "software",
+      "status": "active",
+      "type": "android",
+      "period": "۱۴۰۱ — اکنون",
+      "link": "https://cafebazaar.ir/app/charoymagh.ir",
+      "bazaarLink": "https://cafebazaar.ir/app/charoymagh.ir",
+      "icon": "https://s.cafebazaar.ir/images/icons/charoymagh.ir-b3bc9f67-fd71-4f3e-9b5f-e0287f962731_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "اپلیکیشن رسمی پایگاه خبری چاراویماق؛ اولین خبرگزاری مجوزدار شهرستان.",
+      "tags": [
+        "رسانه",
+        "خبر",
+        "۴.۸★"
+      ],
+      "role": "صاحب امتیاز، مدیر مسئول و توسعه‌دهنده اصلی اپ و وب.",
+      "vision": "دیجیتال‌سازی رسانه محلی با استانداردهای ملی و دسترسی آسان برای شهروندان.",
+      "process": [
+        "اخذ مجوز رسمی ارشاد",
+        "راه‌اندازی سایت خبری",
+        "توسعه اپ اندروید متصل به CMS",
+        "تولید محتوای روزانه و سئو محلی"
+      ],
+      "tech": [
+        "Android",
+        "PHP",
+        "CMS اختصاصی"
+      ],
+      "marketing": "شبکه‌های اجتماعی محلی، تبلیغات شهری و همکاری با نهادها.",
+      "seo": "سئو محلی چاراویماق، ایندکس سریع اخبار، ساختار خبری استاندارد.",
+      "content": "پوشش اخبار محلی، استانی و ملی؛ تحلیل و گزارش.",
+      "challenges": "منابع محدود در رسانه محلی؛ حل با اتوماسیون و تیم‌سازی داوطلبانه.",
+      "outcomes": "اولین پایگاه خبری مجوزدار شهرستان، امتیاز ۴.۸ در کافه‌بازار.",
+      "weight": 95
+    },
+    {
+      "id": "ensan-sogot",
+      "name": "سقوط انسان از خلیفه الهی",
+      "category": "software",
+      "status": "active",
+      "type": "android",
+      "period": "۱۴۰۰ — اکنون",
+      "link": "https://cafebazaar.ir/app/hamza.ensan_sogot",
+      "bazaarLink": "https://cafebazaar.ir/app/hamza.ensan_sogot",
+      "icon": "https://s.cafebazaar.ir/images/icons/hamza.ensan_sogot-06a86e23-6c13-42fc-bc08-6eeb06240ecf_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "تبدیل کتاب تألیفی به اپ تعاملی با امکان مطالعه، جستجو و یادداشت.",
+      "tags": [
+        "کتاب",
+        "مذهبی",
+        "۴.۷★"
+      ],
+      "role": "مؤلف، مدیر پروژه و توسعه‌دهنده اصلی تبدیل کتاب به نرم‌افزار.",
+      "vision": "دیجیتال‌سازی محتوای عمیق معارفی برای دسترسی نسل جدید.",
+      "process": [
+        "تألیف و چاپ کتاب",
+        "طراحی ساختار اپ",
+        "صفحه‌آرایی دیجیتال",
+        "انتشار در کافه‌بازار"
+      ],
+      "tech": [
+        "Android",
+        "Java"
+      ],
+      "marketing": "معرفی در مجامع علمی، فروش فیزیکی+دیجیتال، شبکه‌های مذهبی.",
+      "seo": "کلمات کلیدی کتاب معارفی، لینک به فروشگاه کتاب.",
+      "content": "متن کامل کتاب با فهرست موضوعی و قابلیت نشانک.",
+      "challenges": "حفظ اصالت متن در فرمت دیجیتال.",
+      "outcomes": "کتاب چاپی + اپ منتشرشده، امتیاز ۴.۷.",
+      "weight": 79
+    },
+    {
+      "id": "sarfe-afaal",
+      "name": "صرف افعال عربی",
+      "category": "software",
+      "status": "active",
+      "type": "flutter",
+      "period": "۱۴۰۲ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.sarfe_afaal",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.sarfe_afaal",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.sarfe_afaal-cf40c4f0-61ef-4274-a58e-2bef276523fe_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "آموزش صرف افعال عربی با روش تعاملی و تمرین‌های هوشمند.",
+      "tags": [
+        "Flutter",
+        "عربی",
+        "۴.۹★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Flutter).",
+      "vision": "ساده‌سازی یکی از سخت‌ترین بخش‌های زبان عربی برای دانش‌آموزان.",
+      "process": [
+        "طراحی سیلابس آموزشی",
+        "توسعه با Flutter",
+        "تست با دانش‌آموزان",
+        "انتشار و به‌روزرسانی"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart"
+      ],
+      "marketing": "معرفی در مدارس، گروه‌های والدین و اکوسیستم استارتیچ.",
+      "seo": "صرف فعل عربی، آموزش عربی، کنکور.",
+      "content": "درسنامه، مثال‌ها، تمرین و آزمون.",
+      "challenges": "پیچیدگی قواعد صرف؛ حل با تجسم بصری و تکرار هوشمند.",
+      "outcomes": "امتیاز ۴.۹ — یکی از پرفروش‌ترین اپ‌های آموزشی استارتیچ.",
+      "weight": 84
+    },
+    {
+      "id": "ers-calculator",
+      "name": "محاسبه هوشمند ارث و انحصار وراثت",
+      "category": "software",
+      "status": "active",
+      "type": "android",
+      "period": "۱۴۰۱ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.ers",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.ers",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.ers-4a189168-14e0-41a7-b048-d4c8722ca93c_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "محاسبه سهم‌الارث بر اساس قواعد فقهی با رابط کاربری ساده.",
+      "tags": [
+        "ابزار",
+        "فقه",
+        "حقوق"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "دموکراتیک کردن دسترسی به محاسبات پیچیده ارث برای عموم.",
+      "process": [
+        "مطالعه فقهی",
+        "الگوریتم‌نویسی",
+        "طراحی UX",
+        "انتشار"
+      ],
+      "tech": [
+        "Android",
+        "Java"
+      ],
+      "marketing": "هدف‌گیری روحانیون، وکلا و عموم در شبکه‌های اجتماعی.",
+      "seo": "محاسبه ارث، انحصار وراثت، سهم الارث.",
+      "content": "راهنمای استفاده و مثال‌های کاربردی.",
+      "challenges": "دقت محاسبات فقهی؛ حل با مشاوره متخصص و تست گسترده.",
+      "outcomes": "ابزار مرجع برای محاسبه ارث.",
+      "weight": 80
+    },
+    {
+      "id": "novinestekhdam",
+      "name": "نوین استخدام دستیار",
+      "category": "software",
+      "status": "active",
+      "type": "flutter",
+      "period": "۱۴۰۳ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.novinestekhdam",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.novinestekhdam",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.novinestekhdam-c45e7a13-1735-4996-8800-d996ad80381a_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "دستیار هوشمند آمادگی آزمون‌های استخدامی نوین.",
+      "tags": [
+        "Flutter",
+        "استخدام"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Flutter).",
+      "vision": "همراه دیجیتال روزانه برای داوطلبان استخدام.",
+      "process": [
+        "تحلیل رقبا",
+        "MVP با Flutter",
+        "انتشار در کافه‌بازار"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart"
+      ],
+      "marketing": "اتصال به اکوسیستم استخدامی استارتیچ.",
+      "seo": "استخدام، آزمون استخدامی.",
+      "content": "بانک سوال و راهنمای مطالعه.",
+      "challenges": "تازه‌وارد در بازار پررقابت استخدام.",
+      "outcomes": "انتشار موفق در کافه‌بازار.",
+      "weight": 85
+    },
+    {
+      "id": "arabic-adventure-8",
+      "name": "ماجراجویی عربی هشتم",
+      "category": "software",
+      "status": "active",
+      "type": "flutter",
+      "period": "۱۴۰۲ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.arabifull",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.arabifull",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.arabifull-3a3e4121-06c0-47e4-8c27-98bf30fe0f17_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "آموزش عربی پایه هشتم با گیمیفیکیشن و ماجراجویی.",
+      "tags": [
+        "Flutter",
+        "گیمیفیکیشن",
+        "۵★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Flutter).",
+      "vision": "تبدیل درس خشک عربی به تجربه ماجراجویی جذاب.",
+      "process": [
+        "طراحی داستان آموزشی",
+        "توسعه Flutter",
+        "تست در مدارس",
+        "انتشار"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart"
+      ],
+      "marketing": "معرفی به معلمان و دانش‌آموزان پایه هشتم.",
+      "seo": "عربی هشتم، آموزش عربی، کتاب درسی.",
+      "content": "درسنامه تعاملی، کوییز و سیستم امتیازدهی.",
+      "challenges": "هم‌راستایی با کتاب درسی؛ حل با همکاری معلمان.",
+      "outcomes": "امتیاز ۵ از ۵ در کافه‌بازار.",
+      "weight": 83
+    },
+    {
+      "id": "ippanel-app",
+      "name": "ippanel | پنل پیامکی",
+      "category": "software",
+      "status": "active",
+      "type": "kotlin",
+      "period": "۱۴۰۳ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.ippanelapp",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.ippanelapp",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.ippanelapp-1f9c7244-28cd-4b96-a079-1f1d5e3f3439_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "اپلیکیشن مدیریت پنل پیامکی ippanel از موبایل.",
+      "tags": [
+        "Kotlin",
+        "SMS",
+        "ابزار"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Kotlin).",
+      "vision": "مدیریت کمپین پیامکی از هرجا و هرزمان.",
+      "process": [
+        "اتصال به API ippanel",
+        "توسعه Kotlin",
+        "انتشار"
+      ],
+      "tech": [
+        "Kotlin",
+        "Android",
+        "REST API"
+      ],
+      "marketing": "معرفی به مشتریان ippanel و کسب‌وکارها.",
+      "seo": "پنل پیامکی، ارسال پیامک.",
+      "content": "راهنمای استفاده در اپ.",
+      "challenges": "امنیت و پایداری API.",
+      "outcomes": "ابزار کاربردی برای مشتریان ippanel.",
+      "weight": 81
+    },
+    {
+      "id": "pajohesh-ai",
+      "name": "هوش مصنوعی پژوهشی استارتیچ",
+      "category": "software",
+      "status": "active",
+      "type": "kotlin",
+      "period": "مرداد ۱۴۰۳ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.pajohesh",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.pajohesh",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.pajohesh-e871c716-f1dc-4603-8d74-7c53217aac4a_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "ابزار ارزیابی و راهنمایی پژوهش با هوش مصنوعی.",
+      "tags": [
+        "Kotlin",
+        "AI",
+        "پژوهش",
+        "۵★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Kotlin + وب).",
+      "vision": "دموکراتیک کردن بازخورد کیفی پژوهش برای دانشجویان.",
+      "process": [
+        "طراحی پرامپت و مدل",
+        "توسعه وب (my.starteach.ir)",
+        "اپ Kotlin",
+        "انتشار"
+      ],
+      "tech": [
+        "Kotlin",
+        "PHP",
+        "AI API",
+        "Laravel"
+      ],
+      "marketing": "معرفی در دانشگاه‌ها و گروه‌های پژوهشی.",
+      "seo": "ارزیابی پایان‌نامه، هوش مصنوعی پژوهش.",
+      "content": "راهنمای استفاده و نمونه خروجی.",
+      "challenges": "دقت بازخورد AI؛ حل با فاین‌تیون و راهنمای کاربر.",
+      "outcomes": "امتیاز ۵، ابزار فعال در my.starteach.ir.",
+      "weight": 97
+    },
+    {
+      "id": "garageyar",
+      "name": "گاراژیار",
+      "category": "software",
+      "status": "active",
+      "type": "flutter",
+      "period": "۱۴۰۳ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.GarageYar",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.GarageYar",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.GarageYar-9bb5f5cb-663c-4c6f-8c61-180e3e7506c1_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "مدیریت هوشمند گاراژ و خدمات خودرو.",
+      "tags": [
+        "Flutter",
+        "خودرو",
+        "CRM"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Flutter).",
+      "vision": "دیجیتال‌سازی مدیریت گاراژ برای صاحبان مشاغل خدمات خودرو.",
+      "process": [
+        "تحقیق نیاز گاراژداران",
+        "MVP Flutter",
+        "انتشار"
+      ],
+      "tech": [
+        "Flutter",
+        "Dart"
+      ],
+      "marketing": "بازاریابی مستقیم به گاراژها.",
+      "seo": "مدیریت گاراژ، نرم‌افزار تعمیرگاه.",
+      "content": "معرفی امکانات و آموزش.",
+      "challenges": "پذیرش دیجیتال در صنف سنتی.",
+      "outcomes": "محصول تخصصی برای صنف خودرو.",
+      "weight": 87
+    },
+    {
+      "id": "barkhat-crm",
+      "name": "برخط | منشی و مدیریت هوشمند مشتریان",
+      "category": "software",
+      "status": "active",
+      "type": "kotlin",
+      "period": "۱۴۰۲ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.barkhat",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.barkhat",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.barkhat-c0c6fc2a-bbc0-4049-9cf9-af4dc1cbce88_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "CRM و منشی هوشمند برای مدیریت مشتریان و قرارها.",
+      "tags": [
+        "Kotlin",
+        "CRM",
+        "۵★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (Kotlin).",
+      "vision": "جایگزین دفترچه و تماس‌های از دست رفته با سیستم هوشمند.",
+      "process": [
+        "تحلیل نیاز کسب‌وکارهای کوچک",
+        "طراحی CRM",
+        "توسعه Kotlin",
+        "انتشار"
+      ],
+      "tech": [
+        "Kotlin",
+        "Android"
+      ],
+      "marketing": "معرفی به کسب‌وکارهای خدماتی.",
+      "seo": "CRM ایرانی، مدیریت مشتری.",
+      "content": "آموزش راه‌اندازی و استفاده.",
+      "challenges": "سادگی در عین قابلیت.",
+      "outcomes": "امتیاز ۵ در کافه‌بازار.",
+      "weight": 86
+    },
+    {
+      "id": "arabic-9-leitner",
+      "name": "عربی نهم لایتنر",
+      "category": "software",
+      "status": "maintenance",
+      "type": "android",
+      "period": "۱۴۰۱ — ۱۴۰۳",
+      "link": "https://cafebazaar.ir/app/ir.starteach.arabic9leitner",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.arabic9leitner",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.arabic9leitner-04593345-2b07-4714-b676-85e158f4dd4d_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "یادگیری لغات عربی نهم با سیستم کارت لایتنر.",
+      "tags": [
+        "آموزش",
+        "لایتنر",
+        "عربی"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "حفظ بلندمدت لغات با الگوریتم لایتنر.",
+      "process": [
+        "طراحی الگوریتم",
+        "توسعه",
+        "انتشار"
+      ],
+      "tech": [
+        "Android",
+        "Java"
+      ],
+      "marketing": "معرفی به دانش‌آموزان نهم.",
+      "seo": "عربی نهم، لایتنر.",
+      "content": "بانک لغات پایه نهم.",
+      "challenges": "کاهش استفاده پس از پایان سال تحصیلی.",
+      "outcomes": "ابزار آموزشی تکمیلی؛ در حالت نگهداری.",
+      "weight": 82
+    },
+    {
+      "id": "testpoint",
+      "name": "تست پوینت | آزمون آنلاین هوشمند",
+      "category": "software",
+      "status": "active",
+      "type": "pwa",
+      "period": "۱۴۰۲ — اکنون",
+      "link": "https://cafebazaar.ir/app/ir.starteach.testpoint",
+      "bazaarLink": "https://cafebazaar.ir/app/ir.starteach.testpoint",
+      "icon": "https://s.cafebazaar.ir/images/icons/ir.starteach.testpoint-76cc9052-33b4-46a5-b2df-b85bc3adc5c2_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "سامانه آزمون آنلاین با PWA و TWA؛ بدون نیاز به نصب سنگین.",
+      "tags": [
+        "PWA",
+        "TWA",
+        "آزمون",
+        "۵★"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی (PWA/TWA).",
+      "vision": "آزمون آنلاین سریع، سبک و در دسترس از مرورگر و استور.",
+      "process": [
+        "طراحی PWA",
+        "بسته TWA برای کافه‌بازار",
+        "انتشار"
+      ],
+      "tech": [
+        "PWA",
+        "TWA",
+        "JavaScript",
+        "PHP Backend"
+      ],
+      "marketing": "معرفی به مدارس و مؤسسات آموزشی.",
+      "seo": "آزمون آنلاین، تست آنلاین.",
+      "content": "راهنمای برگزاری آزمون.",
+      "challenges": "عملکرد آفلاین؛ حل با Service Worker.",
+      "outcomes": "امتیاز ۵، نمونه موفق PWA/TWA.",
+      "weight": 73
+    },
+    {
+      "id": "charoymagh-web",
+      "name": "پایگاه خبری چاراویماق",
+      "category": "web",
+      "status": "active",
+      "type": "website",
+      "period": "بهمن ۱۴۰۱ — اکنون",
+      "link": "https://charoymagh.ir",
+      "icon": "https://s.cafebazaar.ir/images/icons/charoymagh.ir-b3bc9f67-fd71-4f3e-9b5f-e0287f962731_512x512.webp?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+      "summary": "اولین پایگاه خبری مجوزدار شهرستان چاراویماق.",
+      "tags": [
+        "خبر",
+        "رسانه",
+        "سئو محلی"
+      ],
+      "role": "صاحب امتیاز، مدیر مسئول و توسعه‌دهنده اصلی.",
+      "vision": "رسانه‌ای معتبر و مستقل برای شهرستان.",
+      "process": [
+        "اخذ مجوز",
+        "راه‌اندازی CMS",
+        "تولید محتوا",
+        "سئو و رشد"
+      ],
+      "tech": [
+        "PHP",
+        "CMS اختصاصی",
+        "سئو"
+      ],
+      "marketing": "شبکه‌های اجتماعی، تبلیغات محلی.",
+      "seo": "رتبه‌بندی اخبار محلی، ایندکس گوگل.",
+      "content": "اخبار، تحلیل، گزارش.",
+      "challenges": "پایداری درآمد رسانه محلی.",
+      "outcomes": "مرجع خبری شهرستان.",
+      "weight": 94
+    },
+    {
+      "id": "emdad-khodro",
+      "name": "امدادخودرو سراسری",
+      "category": "business",
+      "status": "active",
+      "type": "platform",
+      "period": "اردیبهشت ۱۴۰۳ — اکنون",
+      "link": "https://emdadsarasari.ir",
+      "summary": "مارکت‌پلیس اتصال رانندگان به امدادگران در سراسر کشور.",
+      "tags": [
+        "مارکت‌پلیس",
+        "خدمات",
+        "موبایل"
+      ],
+      "role": "بنیان‌گذار و مدیر پروژه — طراحی مدل کسب‌وکار و توسعه پلتفرم.",
+      "vision": "حل بحران امداد خودرو با اتصال هوشمند عرضه و تقاضا.",
+      "process": [
+        "تحقیق بازار",
+        "طراحی مارکت‌پلیس",
+        "جذب امدادگر",
+        "راه‌اندازی وب و اپ"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "Android"
+      ],
+      "marketing": "سئو خدمات امداد، تبلیغات محلی.",
+      "seo": "امداد خودرو، یدک‌کش، سراسری.",
+      "content": "راهنمای استفاده برای راننده و امدادگر.",
+      "challenges": "جذب دو طرف بازار؛ حل با تمرکز جغرافیایی مرحله‌ای.",
+      "outcomes": "پلتفرم فعال در چند استان.",
+      "weight": 93
+    },
+    {
+      "id": "shohada",
+      "name": "پایگاه جامع شهدای چاراویماق",
+      "category": "cultural",
+      "status": "active",
+      "type": "website",
+      "period": "آذر ۱۴۰۰ — اکنون",
+      "link": "http://shohadacharoimaq.ir",
+      "summary": "آرشیو دیجیتال شهدای شهرستان؛ از ۷۲ به ۱۱۰+ شهید.",
+      "tags": [
+        "آرشیو",
+        "شهدا",
+        "فرهنگی"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "حفظ یاد و اطلاعات شهدای شهرستان برای نسل‌های آینده.",
+      "process": [
+        "احصای اطلاعات",
+        "طراحی سایت و اپ",
+        "تقویم شهدا",
+        "سالنامه دیجیتال"
+      ],
+      "tech": [
+        "PHP",
+        "Android",
+        "CMS"
+      ],
+      "marketing": "همکاری با بنیاد شهید و نهادهای محلی.",
+      "seo": "شهدای چاراویماق، تقویم شهدا.",
+      "content": "زندگینامه، تصاویر، وقایع.",
+      "challenges": "جمع‌آوری اطلاعات ناقص؛ حل با مشارکت مردمی.",
+      "outcomes": "اولین تقویم شهدا در سطح شهرستان.",
+      "weight": 92
+    },
+    {
+      "id": "zanbil-no",
+      "name": "زنبیل نو",
+      "category": "business",
+      "status": "active",
+      "type": "platform",
+      "period": "تیر ۱۴۰۰ — اکنون",
+      "link": "http://zb9.ir",
+      "summary": "موتور بازاریابی وابسته فروش؛ حدود ۱ میلیارد تومان فروش دیجی‌کالا در ۱.۵ ماه.",
+      "tags": [
+        "افیلیت",
+        "سئو",
+        "فروش"
+      ],
+      "role": "بنیان‌گذار و مدیر پروژه — معماری موتور جستجو و استراتژی فروش.",
+      "vision": "فروش هوشمند بدون انبارداری با سئو و محتوا.",
+      "process": [
+        "طراحی موتور جستجو سبک",
+        "تولید محتوا",
+        "سئو",
+        "بهینه‌سازی تبدیل"
+      ],
+      "tech": [
+        "PHP",
+        "سئو",
+        "کد اختصاصی"
+      ],
+      "marketing": "محتوای مجله، شبکه‌های اجتماعی، لینک‌افیلیت.",
+      "seo": "هسته اصلی محصول — رتبه‌بندی کالا.",
+      "content": "بررسی محصول، مقایسه، راهنمای خرید.",
+      "challenges": "رقابت با سایت‌های بزرگ؛ حل با نیچ و سرعت.",
+      "outcomes": "۱ میلیارد تومان فروش در ۱.۵ ماه.",
+      "weight": 91
+    },
+    {
+      "id": "kahrouba",
+      "name": "فصلنامه کهربا",
+      "category": "media",
+      "status": "active",
+      "type": "publication",
+      "period": "اردیبهشت ۱۴۰۳ — اکنون",
+      "link": "http://kahrouba.ir",
+      "summary": "اولین فصلنامه شهرستان چاراویماق.",
+      "tags": [
+        "نشریه",
+        "پژوهش",
+        "فرهنگ"
+      ],
+      "role": "صاحب امتیاز، مدیر مسئول و مدیر پروژه انتشار.",
+      "vision": "بستر انتشار پژوهش‌های محلی و ملی.",
+      "process": [
+        "اخذ مجوز",
+        "تیم‌سازی نویسندگان",
+        "صفحه‌آرایی",
+        "انتشار فصلی"
+      ],
+      "tech": [
+        "صفحه‌آرایی",
+        "وب",
+        "چاپ"
+      ],
+      "marketing": "معرفی در دانشگاه‌ها و نهادها.",
+      "seo": "فصلنامه محلی، پژوهش.",
+      "content": "مقالات پژوهشی و فرهنگی.",
+      "challenges": "جذب نویسنده باکیفیت.",
+      "outcomes": "اولین فصلنامه شهرستان.",
+      "weight": 78
+    },
+    {
+      "id": "ai-bm-assistant",
+      "name": "دستیار هوشمند طرح شهید بهنام محمدی",
+      "category": "hub",
+      "status": "active",
+      "type": "ai",
+      "period": "مرداد ۱۴۰۴ — اکنون",
+      "link": "https://starteach.ir/ai-bm",
+      "summary": "پاسخگوی هوشمند به سؤالات طرح تربیتی شهید بهنام محمدی.",
+      "tags": [
+        "AI",
+        "تربیت",
+        "استارتیچ"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "دسترسی ۲۴ ساعته به راهنمای طرح برای مربیان.",
+      "process": [
+        "جمع‌آوری محتوا",
+        "طراحی چت‌بات",
+        "انتشار"
+      ],
+      "tech": [
+        "AI",
+        "PHP",
+        "Laravel"
+      ],
+      "marketing": "معرفی به مربیان طرح در سراسر کشور.",
+      "seo": "طرح شهید بهنام محمدی، دستیار.",
+      "content": "پایگاه دانش طرح.",
+      "challenges": "دقت پاسخ‌ها.",
+      "outcomes": "ابزار فعال برای مربیان.",
+      "weight": 96
+    },
+    {
+      "id": "samane-line",
+      "name": "پنل پیامکی سامانه لاین",
+      "category": "web",
+      "status": "active",
+      "type": "saas",
+      "period": "اسفند ۱۳۹۸ — اکنون",
+      "link": "http://samaneline.ir",
+      "summary": "سامانه ارسال پیامک انبوه با زمان‌بندی و گزارش.",
+      "tags": [
+        "SMS",
+        "SaaS",
+        "بازاریابی"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "ابزار حرفه‌ای پیامک برای کسب‌وکارهای ایرانی.",
+      "process": [
+        "اتصال به درگاه پیامک",
+        "پنل کاربری",
+        "فروش و پشتیبانی"
+      ],
+      "tech": [
+        "PHP",
+        "API پیامک"
+      ],
+      "marketing": "فروش مستقیم و معرفی.",
+      "seo": "پنل پیامک، ارسال انبوه.",
+      "content": "آموزش کمپین پیامکی.",
+      "challenges": "رقابت قیمتی.",
+      "outcomes": "سرویس فعال با مشتریان ثابت.",
+      "weight": 77
+    },
+    {
+      "id": "servicestar",
+      "name": "هاستینگ سرویس استار",
+      "category": "business",
+      "status": "active",
+      "type": "hosting",
+      "period": "فروردین ۱۳۹۹ — اکنون",
+      "link": "http://servicestar.ir",
+      "summary": "میزبانی وب و خدمات طراحی سایت، نرم‌افزار و تولید محتوا.",
+      "tags": [
+        "هاست",
+        "طراحی",
+        "پشتیبانی"
+      ],
+      "role": "بنیان‌گذار و مدیر پروژه.",
+      "vision": "خدمات یکپارچه دیجیتال برای کسب‌وکارها.",
+      "process": [
+        "راه‌اندازی سرور",
+        "فروش هاست",
+        "خدمات جانبی"
+      ],
+      "tech": [
+        "Linux",
+        "cPanel",
+        "PHP"
+      ],
+      "marketing": "فروش هاست و پکیج طراحی.",
+      "seo": "هاست ایران، طراحی سایت.",
+      "content": "مقالات آموزشی.",
+      "challenges": "رقابت شدید هاستینگ.",
+      "outcomes": "درآمد پایدار خدمات.",
+      "weight": 76
+    },
+    {
+      "id": "lisher",
+      "name": "کوتاه‌کننده لینک لیشر",
+      "category": "web",
+      "status": "maintenance",
+      "type": "tool",
+      "period": "اردیبهشت ۱۳۹۹ — ۱۴۰۳",
+      "link": "http://lisher.ir",
+      "summary": "سرویس کوتاه‌سازی لینک با آمار و مدیریت.",
+      "tags": [
+        "ابزار",
+        "لینک",
+        "آنالیتیکس"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "لینک کوتاه با آمار دقیق برای بازاریابان.",
+      "process": [
+        "توسعه",
+        "انتشار",
+        "نگهداری"
+      ],
+      "tech": [
+        "PHP",
+        "MySQL"
+      ],
+      "marketing": "معرفی به بازاریابان.",
+      "seo": "کوتاه کننده لینک.",
+      "content": "راهنما.",
+      "challenges": "رقابت با bit.ly و داخلی‌ها.",
+      "outcomes": "سرویس فعال در حالت نگهداری.",
+      "weight": 75
+    },
+    {
+      "id": "dinafile",
+      "name": "دینا فایل",
+      "category": "business",
+      "status": "active",
+      "type": "search",
+      "period": "اردیبهشت ۱۴۰۱ — اکنون",
+      "link": "http://dinafile.ir",
+      "summary": "موتور جستجوی فایل در نزدیک یک میلیون محصول.",
+      "tags": [
+        "جستجو",
+        "مارکت‌پلیس",
+        "فایل"
+      ],
+      "role": "بنیان‌گذار و مدیر پروژه.",
+      "vision": "پیدا کردن هر فایل آموزشی در یک جا.",
+      "process": [
+        "کرال و ایندکس",
+        "رابط جستجو",
+        "مونتایزیشن"
+      ],
+      "tech": [
+        "PHP",
+        "Search",
+        "کرالر"
+      ],
+      "marketing": "سئو فایل‌های پرجستجو.",
+      "seo": "هسته محصول.",
+      "content": "دسته‌بندی فایل‌ها.",
+      "challenges": "حقوق مالکیت محتوا.",
+      "outcomes": "بانک جستجوی گسترده.",
+      "weight": 90
+    },
+    {
+      "id": "listly",
+      "name": "لیستلی",
+      "category": "business",
+      "status": "active",
+      "type": "directory",
+      "period": "آبان ۱۴۰۲ — اکنون",
+      "link": "http://listly.ir",
+      "summary": "تبلیغ کسب‌وکارهای محلی برای دیده شدن در گوگل.",
+      "tags": [
+        "سئو محلی",
+        "دایرکتوری"
+      ],
+      "role": "مدیر پروژه و توسعه‌دهنده اصلی.",
+      "vision": "کسب‌وکار محلی در صفحه اول گوگل.",
+      "process": [
+        "طراحی دایرکتوری",
+        "سئو محلی",
+        "فروش"
+      ],
+      "tech": [
+        "PHP",
+        "SEO"
+      ],
+      "marketing": "فروش مستقیم به مشاغل.",
+      "seo": "Local SEO.",
+      "content": "صفحات کسب‌وکار.",
+      "challenges": "اعتماد مشتری محلی.",
+      "outcomes": "دایرکتوری فعال.",
+      "weight": 88
+    },
+    {
+      "id": "fishyar",
+      "name": "فیش‌یار",
+      "category": "web",
+      "status": "retired",
+      "type": "content",
+      "period": "آذر ۱۳۹۷ — دی ۱۴۰۳",
+      "link": "http://fishyar.ir",
+      "summary": "سامانه آنلاین فیش تبلیغ با بیش از ۱۰ هزار فیش.",
+      "tags": [
+        "محتوا",
+        "مذهبی",
+        "بازنشسته"
+      ],
+      "role": "بنیان‌گذار و مدیر پروژه.",
+      "vision": "سازماندهی فیش‌های تبلیغ برای سخنرانان.",
+      "process": [
+        "طراحی ساختار",
+        "جمع‌آوری محتوا",
+        "رشد جامعه کاربری",
+        "خاتمه فعالیت"
+      ],
+      "tech": [
+        "PHP",
+        "MySQL"
+      ],
+      "marketing": "معرفی در مجامع مذهبی.",
+      "seo": "فیش تبلیغ، سخنرانی.",
+      "content": "۱۰ هزار+ فیش دسته‌بندی‌شده.",
+      "challenges": "نگهداری محتوا؛ تصمیم به خاتمه در دی ۱۴۰۳.",
+      "outcomes": "۱۰ هزار فیش، جامعه فعال؛ پروژه از رده خارج.",
+      "weight": 89
+    },
+    {
+      "id": "farhikhtegan",
+      "name": "مدرسه فرهیختگان علوی",
+      "category": "cultural",
+      "status": "active",
+      "type": "education",
+      "period": "آبان ۱۴۰۲ — اکنون",
+      "link": "http://farhikhteghan-ch.ir",
+      "summary": "وب‌سایت و زیرساخت دیجیتال مدرسه با رویکرد تربیتی.",
+      "tags": [
+        "آموزش",
+        "تربیت",
+        "مدرسه"
+      ],
+      "role": "معاون پرورشی، دبیر کاروفناوری و توسعه‌دهنده وب.",
+      "vision": "تلفیق آموزش نوین و ارزش‌های اخلاقی.",
+      "process": [
+        "راه‌اندازی سایت",
+        "محتوای آموزشی",
+        "فعالیت پرورشی"
+      ],
+      "tech": [
+        "WordPress",
+        "PHP"
+      ],
+      "marketing": "جذب دانش‌آموز محلی.",
+      "seo": "مدرسه چاراویماق.",
+      "content": "اخبار مدرسه، برنامه‌ها.",
+      "challenges": "منابع محدود مدرسه.",
+      "outcomes": "حضور دیجیتال مدرسه.",
+      "weight": 74
+    }
+  ],
+  "typeLabels": {
+    "platform": "Cross-platform platform",
+    "android": "Android app",
+    "flutter": "Cross-platform (Flutter)",
+    "kotlin": "Android (Kotlin)",
+    "website": "Web project",
+    "pwa": "Web app / PWA",
+    "ai": "AI tool",
+    "saas": "SaaS system",
+    "hosting": "Web hosting",
+    "tool": "Online tool",
+    "search": "Search engine",
+    "directory": "Directory",
+    "content": "Content platform",
+    "education": "Education project",
+    "publication": "Publication"
+  }
+}
