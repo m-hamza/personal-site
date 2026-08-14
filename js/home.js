@@ -128,7 +128,7 @@ function renderProjects(container, pdata) {
                  data-bs-toggle="modal" data-bs-target="#siteModal"
                  role="button" tabindex="0">
             <div class="project-card-top">
-                ${project.icon ? `<img class="project-icon lazy-load" src="${escapeHtml(project.icon)}" alt="" loading="lazy">` : `<div class="project-icon-placeholder"><i class="fas fa-folder"></i></div>`}
+                ${project.icon ? `<img class="project-icon lazy-load" src="${escapeHtml(resolveAsset(project.icon))}" alt="" loading="lazy">` : `<div class="project-icon-placeholder"><i class="fas fa-folder"></i></div>`}
                 <span class="project-status ${statusClass(project.status)}">${escapeHtml(statusLabel(project.status, pdata.modal))}</span>
             </div>
             ${typeLabel ? `<span class="project-type-badge">${escapeHtml(typeLabel)}</span>` : ""}
@@ -185,7 +185,7 @@ function openProjectModal(project, pdata) {
 
     const iconEl = document.getElementById("siteModalIcon");
     if (project.icon) {
-        iconEl.src = project.icon;
+        iconEl.src = resolveAsset(project.icon);
         iconEl.alt = project.name;
         iconEl.hidden = false;
     } else {
@@ -503,6 +503,10 @@ async function renderPage() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register(resolveAsset("sw.js")).catch(() => {});
+    }
+
     initTheme(document.getElementById("themeToggle"));
 
     document.getElementById("siteModal").addEventListener("show.bs.modal", (event) => {
