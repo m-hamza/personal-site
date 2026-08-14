@@ -17,7 +17,8 @@
     --font-en: "Inter", "Segoe UI", sans-serif;
 }
 
-.dark-mode {
+html.dark-mode {
+    color-scheme: dark;
     --light-color: #121212;
     --text-color: #e4e6eb;
     --text-secondary-color: #b0b3b8;

@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+            try {
+                if (localStorage.getItem("darkMode") === "true") {
+                    document.documentElement.classList.add("dark-mode");
+                }
+            } catch (error) {}
+        })();
+    </script>
     <title>محمد حمزه | بنیان‌گذار استارتیچ</title>
     <meta name="description" content="بنیان‌گذار استارتیچ؛ مدیر پروژه و توسعه‌دهنده محصولات دیجیتال — وب، اندروید، Flutter، Kotlin و PWA. از ایده تا تجاری‌سازی.">
     <meta name="robots" content="index, follow">
@@ -114,7 +123,7 @@
         </footer>
     </div>
 
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <i class="fas fa-moon"></i>
     </button>
 

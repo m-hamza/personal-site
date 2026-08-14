@@ -507,7 +507,7 @@ function registerServiceWorker() {
     navigator.serviceWorker.register(resolveAsset("sw.js")).catch(() => {});
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
+async function boot() {
     initTheme(document.getElementById("themeToggle"));
 
     document.getElementById("siteModal").addEventListener("show.bs.modal", (event) => {
@@ -529,4 +529,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         hideLoading();
     }
     registerServiceWorker();
-});
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+} else {
+    boot();
+}
