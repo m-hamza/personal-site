@@ -37,6 +37,11 @@
       "icon": "fas fa-handshake"
     },
     {
+      "id": "order",
+      "label": "Order Project",
+      "icon": "fas fa-file-contract"
+    },
+    {
       "id": "timeline",
       "label": "Timeline",
       "icon": "fas fa-stream"
@@ -59,14 +64,157 @@
   "sectionServices": "Services",
   "sectionTimeline": "Activity timeline",
   "sectionProfile": "Profile",
+  "sectionOrderProject": "Order Project",
   "projectsLead": "All products and projects — from EdTech platforms to Android apps and web systems",
   "servicesLead": "Services for business growth, digital products, and online presence — from WordPress and custom design to React, mobile, and AI",
   "timelineLead": "Professional journey from idea to execution — jobs, projects, and software in one view",
+  "orderProjectLead": "Ready to start your project? Read about the collaboration process, required information, and how to submit your request.",
   "profileTabs": {
     "about": "About me",
     "skills": "Skills",
     "education": "Education & publications",
     "more": "More",
     "techSkills": "Technical skills"
+  },
+  "orderProcess": {
+    "title": "Project Workflow",
+    "step1": {
+      "title": "Submit Request",
+      "desc": "Fill out the form below with initial project details including type, description, budget, and timeline."
+    },
+    "step2": {
+      "title": "Review & Analysis",
+      "desc": "Your project will be reviewed. If needed, an online or phone meeting will be scheduled to clarify details."
+    },
+    "step3": {
+      "title": "Proposal",
+      "desc": "After analysis, a formal proposal including cost, timeline, technologies, and delivery phases will be provided."
+    },
+    "step4": {
+      "title": "Agreement & Contract",
+      "desc": "Once terms are agreed upon, a formal contract is signed and the deposit is received."
+    },
+    "step5": {
+      "title": "Design & Development",
+      "desc": "UI/UX design, frontend and backend development, and feature implementation according to the schedule."
+    },
+    "step6": {
+      "title": "Testing & Feedback",
+      "desc": "The initial version is provided for testing and necessary feedback is applied."
+    },
+    "step7": {
+      "title": "Final Delivery",
+      "desc": "After final approval, the project is delivered and necessary training is provided."
+    },
+    "step8": {
+      "title": "Support",
+      "desc": "Technical support and bug-fix period begins as per the contract."
+    }
+  },
+  "requiredInfo": {
+    "title": "Required Information for Project Order",
+    "desc": "For accurate review and appropriate proposal, please specify the following when submitting your request:",
+    "items": [
+      {
+        "icon": "fas fa-bullseye",
+        "label": "Project Goal",
+        "detail": "What problem are you solving? What value do you create for users?"
+      },
+      {
+        "icon": "fas fa-users",
+        "label": "Target Audience",
+        "detail": "Who are your users? (age, occupation, interests, expertise level)"
+      },
+      {
+        "icon": "fas fa-list-check",
+        "label": "Core Features",
+        "detail": "What features are essential? What features are second priority?"
+      },
+      {
+        "icon": "fas fa-palette",
+        "label": "Design & Brand",
+        "detail": "Do you have a logo, brand colors, or visual style guide?"
+      },
+      {
+        "icon": "fas fa-globe",
+        "label": "Similar Examples",
+        "detail": "Which websites or apps do you like? What elements do you prefer?"
+      },
+      {
+        "icon": "fas fa-coins",
+        "label": "Estimated Budget",
+        "detail": "What is your budget range? (low, medium, high)"
+      },
+      {
+        "icon": "fas fa-clock",
+        "label": "Timeline",
+        "detail": "When do you expect delivery? Is there a specific deadline?"
+      },
+      {
+        "icon": "fas fa-language",
+        "label": "Languages",
+        "detail": "Is the project monolingual or multilingual? Which languages are needed?"
+      },
+      {
+        "icon": "fas fa-server",
+        "label": "Infrastructure",
+        "detail": "Do you have hosting and domain? Do you need setup?"
+      },
+      {
+        "icon": "fas fa-chart-line",
+        "label": "Growth & Marketing",
+        "detail": "Do you need SEO, content production, or advertising campaigns?"
+      }
+    ]
+  },
+  "projectTypes": {
+    "title": "Available Project Types",
+    "types": [
+      {
+        "icon": "fab fa-wordpress",
+        "name": "WordPress Website",
+        "desc": "Corporate, e-commerce, news, educational sites with easy management"
+      },
+      {
+        "icon": "fas fa-code",
+        "name": "Custom Website",
+        "desc": "Web systems with Laravel, PHP and scalable architecture"
+      },
+      {
+        "icon": "fab fa-react",
+        "name": "React Application",
+        "desc": "Modern UI, SPA, dashboard and admin panel"
+      },
+      {
+        "icon": "fab fa-android",
+        "name": "Mobile App",
+        "desc": "Android with Flutter or Kotlin — from idea to publication"
+      },
+      {
+        "icon": "fas fa-mobile-alt",
+        "name": "PWA / TWA",
+        "desc": "Convert website to lightweight app with browser installation"
+      },
+      {
+        "icon": "fas fa-shopping-cart",
+        "name": "Online Store",
+        "desc": "Store with payment gateway, product management and discounts"
+      },
+      {
+        "icon": "fas fa-robot",
+        "name": "Artificial Intelligence",
+        "desc": "AI tools, smart assistant and automation"
+      },
+      {
+        "icon": "fas fa-search",
+        "name": "SEO & Optimization",
+        "desc": "Improve Google ranking, speed and user experience"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Start?",
+    "desc": "Submit your request now. I'll respond within 48 business hours.",
+    "button": "Submit Project Request"
   }
 }
