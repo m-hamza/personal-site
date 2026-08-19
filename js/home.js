@@ -433,6 +433,7 @@ function setSectionTitles(data) {
     };
     set("projectsTitle", "fas fa-briefcase", ui.sectionProjects || "پروژه‌ها");
     set("servicesTitle", "fas fa-handshake", ui.sectionServices || "خدمات");
+    set("orderTitle", "fas fa-file-contract", ui.sectionOrderProject || "سفارش پروژه");
     set("timelineTitle", "fas fa-stream", ui.sectionTimeline || "تایم‌لاین فعالیت‌ها");
     set("profileTitle", "fas fa-user", ui.sectionProfile || "پروفایل");
     set("contactTitle", "fas fa-envelope", ui.contact);
@@ -443,6 +444,95 @@ function setSectionTitles(data) {
     if (servicesLead) servicesLead.textContent = ui.servicesLead || "";
     const timelineLead = document.getElementById("timelineLead");
     if (timelineLead) timelineLead.textContent = ui.timelineLead || "";
+    const orderLead = document.getElementById("orderProjectLead");
+    if (orderLead) orderLead.textContent = ui.orderProjectLead || "";
+}
+
+function renderOrderProcess(container, ui) {
+    const process = ui.orderProcess || {};
+    const steps = [];
+    for (let i = 1; i <= 8; i++) {
+        const step = process[`step${i}`];
+        if (step) {
+            steps.push({ number: i, ...step });
+        }
+    }
+    
+    container.innerHTML = `
+        <h3><i class="fas fa-route"></i> ${escapeHtml(process.title || "مراحل انجام پروژه")}</h3>
+        <div class="process-steps">
+            ${steps.map((step) => `
+                <div class="process-step">
+                    <span class="step-number">${step.number}</span>
+                    <h4>${escapeHtml(step.title)}</h4>
+                    <p>${escapeHtml(step.desc)}</p>
+                </div>
+            `).join("")}
+        </div>
+    `;
+}
+
+function renderRequiredInfo(container, ui) {
+    const info = ui.requiredInfo || {};
+    container.innerHTML = `
+        <h3><i class="fas fa-clipboard-list"></i> ${escapeHtml(info.title || "اطلاعات مورد نیاز")}</h3>
+        <p>${escapeHtml(info.desc || "")}</p>
+        <div class="info-grid">
+            ${(info.items || []).map((item) => `
+                <div class="info-item">
+                    <i class="${escapeHtml(item.icon)}"></i>
+                    <div class="info-content">
+                        <h4>${escapeHtml(item.label)}</h4>
+                        <p>${escapeHtml(item.detail)}</p>
+                    </div>
+                </div>
+            `).join("")}
+        </div>
+    `;
+}
+
+function renderProjectTypes(container, ui) {
+    const types = ui.projectTypes || {};
+    container.innerHTML = `
+        <h3><i class="fas fa-layer-group"></i> ${escapeHtml(types.title || "انواع پروژه‌ها")}</h3>
+        <div class="types-grid">
+            ${(types.types || []).map((type) => `
+                <div class="type-card">
+                    <i class="${escapeHtml(type.icon)}"></i>
+                    <h4>${escapeHtml(type.name)}</h4>
+                    <p>${escapeHtml(type.desc)}</p>
+                </div>
+            `).join("")}
+        </div>
+    `;
+}
+
+function renderCtaSection(container, ui, contacts) {
+    const cta = ui.cta || {};
+    const whatsapp = contacts.find((c) => c.id === "whatsapp");
+    const telegram = contacts.find((c) => c.id === "telegram");
+    const email = contacts.find((c) => c.id === "email");
+    
+    const contactLinks = [];
+    if (whatsapp) {
+        contactLinks.push(`<a href="${escapeHtml(whatsapp.href)}" class="cta-contact" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a>`);
+    }
+    if (telegram) {
+        contactLinks.push(`<a href="${escapeHtml(telegram.href)}" class="cta-contact" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram-plane"></i> Telegram</a>`);
+    }
+    if (email) {
+        contactLinks.push(`<a href="${escapeHtml(email.href)}" class="cta-contact"><i class="fas fa-envelope"></i> Email</a>`);
+    }
+    
+    container.innerHTML = `
+        <div class="cta-section">
+            <h3>${escapeHtml(cta.title || "آماده شروع هستید؟")}</h3>
+            <p>${escapeHtml(cta.desc || "")}</p>
+            <div class="cta-links">
+                ${contactLinks.join("")}
+            </div>
+        </div>
+    `;
 }
 
 function refreshProjects() {
@@ -483,6 +573,12 @@ async function renderPage() {
     renderStarteachHub(document.getElementById("starteachHub"), projectsData);
     refreshProjects();
     renderServices(document.getElementById("servicesList"), data.services);
+    
+    // Render Order Project section
+    renderOrderProcess(document.getElementById("orderProcess"), data.ui);
+    renderRequiredInfo(document.getElementById("requiredInfo"), data.ui);
+    renderProjectTypes(document.getElementById("projectTypes"), data.ui);
+    renderCtaSection(document.getElementById("ctaSection"), data.ui, data.contacts);
 
     const categories = [...new Set((data.resume.activityTimeline || []).map((i) => i.category).filter(Boolean))];
     renderTimelineFilters(
