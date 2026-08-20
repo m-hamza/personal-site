@@ -981,8 +981,43 @@
       "seo": "مدرسه چاراویماق.",
       "content": "اخبار مدرسه، برنامه‌ها.",
       "challenges": "منابع محدود مدرسه.",
-      "outcomes": "حضور دیجیتال مدرسه.",
+      "outcomes": "Digital presence of the school.",
       "weight": 74
+    },
+    {
+      "id": "fishnote",
+      "name": "FishNote — Research Assistant",
+      "category": "software",
+      "status": "active",
+      "type": "saas",
+      "period": "2025 — Present",
+      "summary": "Specialized platform for storing research notes with categorization, indexing, and detailed metadata for researchers.",
+      "tags": [
+        "Research",
+        "Knowledge Management",
+        "SaaS"
+      ],
+      "role": "Designer and Lead Developer — Creating a platform for intelligent organization of research notes.",
+      "vision": "Building an integrated ecosystem for researchers to manage their notes exclusively, categorized, and with fast retrieval capabilities.",
+      "process": [
+        "Analyzing researchers' needs in resource management",
+        "Designing data structure for research notes",
+        "Implementing intelligent indexing and tagging system",
+        "Developing simple yet powerful user interface",
+        "Launching initial version and gathering feedback"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Vue.js",
+        "REST API"
+      ],
+      "marketing": "Introduction in research communities, universities, and academic groups.",
+      "seo": "Research notes, research management, research assistant software.",
+      "content": "Ability to register notes with full details, subject categorization, advanced search, and standard outputs.",
+      "challenges": "Diversity of research formats; solved by designing flexible structure and custom fields.",
+      "outcomes": "Reduced time in organizing resources, increased research productivity, and quick access to notes."
     }
   ],
   "typeLabels": {
