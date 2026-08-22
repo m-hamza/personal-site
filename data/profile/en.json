@@ -1,43 +1,42 @@
 {
   "profile": {
     "name": "Mohammad Hamza",
-    "headline": "Founder of Starteach | Product lead & full-stack developer",
-    "tagline": "From idea to commercialization — project management, web & mobile development, SEO and digital marketing",
+    "headline": "Web & Android Developer, SEO Specialist | Founder of Starteach",
+    "tagline": "15 years experience in digital product development — from idea to commercialization with product management, SEO and digital marketing approach",
     "photo": "gibli.jpg",
     "birthDateLabel": "Born 1374 (1995)",
-    "location": "East Azerbaijan"
+    "location": "East Azerbaijan, Iran"
   },
-  "about": "I am Mohammad Hamza, founder of Starteach (starteach.ir). Instead of building a separate brand for every idea, I develop all my products under one brand hub. My career combines project management, technical development, and business growth — from Laravel and React and Flutter to Kotlin and PWA/TWA. I hold a Master's degree in Child and Adolescent Education, but my main focus is practical skills that help me deliver projects and build products.",
+  "about": "I am Mohammad Hamza; a full-stack web and mobile app developer, SEO and digital marketing specialist with 15 years of professional experience in East Azerbaijan, Iran. I am the founder and manager of the Starteach team (starteach.ir), which develops various digital products remotely with specialists from all over Iran. Our focus is on creating educational platforms, practical software, educational content for professors and students, employment exam resources, research AI, and course marketplace. With over 60 successful products including 25 Android software and web applications, I accompany you from the ideation stage to design, development, SEO, marketing and commercialization.",
   "aboutSkills": [
-    "Project management (idea to launch)",
-    "Laravel & PHP",
-    "React & JavaScript",
-    "Flutter & Dart",
-    "Kotlin & Android",
-    "PWA / TWA",
-    "WordPress",
-    "Custom web design",
-    "Custom development",
-    "SEO & digital marketing",
-    "Content production",
-    "Applied AI"
+    "Product & Project Management (15 years experience)",
+    "Web Development: Laravel, PHP, React, JavaScript",
+    "Mobile Development: Flutter, Kotlin, Java, Android",
+    "PWA / TWA and Advanced Web Applications",
+    "Technical SEO, On-Page and Off-Page",
+    "Digital Marketing & Business Growth",
+    "UI/UX Design & User Experience",
+    "Content Production & Content Strategy",
+    "Applied AI in Products",
+    "WordPress & Custom Website Design",
+    "Startup Consulting & MVP"
   ],
   "aboutPm": {
-    "title": "Project management — from idea to commercialization",
-    "text": "In every project I hold the primary role: product definition, MVP design, team and timeline management, technical development, SEO and marketing, content production, solving challenges, and go-to-market. This approach makes my products real businesses, not just code."
+    "title": "Product Management — From Idea to Commercialization",
+    "text": "In every project, I take on the role of product manager: defining vision, designing MVP, managing remote team, scheduling, technical development, SEO, marketing, content production and market entry. This approach has made my products not just code, but real businesses with audience and revenue."
   },
   "stats": [
     {
-      "value": "+10",
-      "label": "Years experience"
-    },
-    {
-      "value": "+20",
-      "label": "Products"
-    },
-    {
       "value": "+15",
-      "label": "Apps"
+      "label": "Years Experience"
+    },
+    {
+      "value": "+60",
+      "label": "Successful Products"
+    },
+    {
+      "value": "+25",
+      "label": "Android & Web Software"
     }
   ],
   "education": {
@@ -47,7 +46,7 @@
   "profileBlock": {
     "skills": [
       {
-        "name": "Project & product management",
+        "name": "Project & Product Management",
         "level": "Expert",
         "percent": 92
       },
@@ -72,12 +71,33 @@
         "percent": 80
       },
       {
-        "name": "SEO & marketing",
+        "name": "SEO & Marketing",
         "level": "Expert",
         "percent": 88
       },
       {
         "name": "PWA / TWA",
+        "level": "Advanced",
+        "percent": 82
+      },
+      {
+        "name": "Applied AI",
+        "level": "Growing",
+        "percent": 75
+      }
+    ],
+    "languages": [
+      {
+        "name": "Persian",
+        "level": "Native",
+        "percent": 100
+      },
+      {
+        "name": "English",
+        "level": "Intermediate",
+        "percent": 55
+      },
+      {
         "level": "Advanced",
         "percent": 82
       },
