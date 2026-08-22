@@ -20,14 +20,16 @@ export function injectStructuredData(data, projectsData) {
             "@type": "Person",
             "@id": `${SITE_URL}/#person`,
             name: data.profile.name,
-            jobTitle: data.profile.headline.split("|")[0].trim(),
+            givenName: "محمد",
+            familyName: "حمزه",
+            jobTitle: "توسعه‌دهنده وب و اپلیکیشن، دیجیتال مارکتر و متخصص سئو",
             description: data.profile.tagline,
             url: SITE_URL,
             image: photoUrl,
             email: data.contacts?.find((c) => c.id === "email")?.value,
             telephone: data.contacts?.find((c) => c.id === "phone")?.value,
             address: data.profile.location
-                ? { "@type": "PostalAddress", addressRegion: data.profile.location, addressCountry: "IR" }
+                ? { "@type": "PostalAddress", addressRegion: data.profile.location, addressCountry: "IR", addressLocality: "آذربایجان شرقی" }
                 : undefined,
             sameAs: (data.contacts || [])
                 .filter((channel) => channel.external && channel.href?.startsWith("http"))
@@ -44,7 +46,7 @@ export function injectStructuredData(data, projectsData) {
             description: data.meta.description,
             url: SITE_URL,
             provider: { "@id": `${SITE_URL}/#person` },
-            areaServed: "IR",
+            areaServed: ["IR", "East Azerbaijan", "Tabriz"],
             hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: data.ui.sectionServices,
@@ -59,9 +61,18 @@ export function injectStructuredData(data, projectsData) {
                 })),
             },
         },
+        {
+            "@type": "Organization",
+            "@id": `${SITE_URL}/#starteach`,
+            name: "استارتیچ | Start Each",
+            description: "هاب محصولات دیجیتال آموزشی و پژوهشی",
+            url: "https://starteach.ir",
+            founder: { "@id": `${SITE_URL}/#person` },
+            areaServed: "IR",
+        },
         ...(projectsData?.projects || [])
             .filter((p) => p.link)
-            .slice(0, 15)
+            .slice(0, 20)
             .map((project) => ({
                 "@type": "CreativeWork",
                 name: project.name,
